@@ -1,27 +1,82 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+  <meta charset="UTF-8" />
+  <title>FELINES</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="/image/Felines.logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-        <title>FELINES</title>
-        <link rel="icon" type="image/png" sizes="64x64" href="../image/new_favicon_xbg.png">
-    </head>
+  <!-- Header with logo -->
+  <header id="header">
+    <div id="logo">
+      <span id="cat-image">🐱</span>
+      <span id="cat-text">CAT</span>
+      <span id="cat-on-t">🐈</span>
+    </div>
+  </header>
 
-    <body>
-    
-        <header>
-            <h1>FELINES</h1>
-        </header>
+  <!-- Navigation buttons -->
+  <nav id="main-nav">
+    <button id="shelter-btn">Shelter</button>
+    <button id="about-btn">About Us</button>
+    <button id="tips-btn">Tips</button>
+    <button id="profile-btn" aria-label="User Profile">🐱</button>
+  </nav>
 
-        <main>
-            <h1>CAT ADOPTION</h1>
+  <!-- Main content area -->
+  <div id="container">
 
-        </main>
+    <!-- Sidebar: Search by state -->
+    <aside id="search-sidebar">
+      <h2>Search by State</h2>
+      <ul>
+        <li>Selangor</li>
+        <li>Johor</li>
+        <li>Penang</li>
+        <!-- add states here -->
+      </ul>
+    </aside>
 
-        <footer>
-            
-        </footer>
+    <!-- Cat list & pagination -->
+    <main id="cat-list">
 
-    </body>
+      <!-- Pagination -->
+      <div id="pagination">
+        Page:
+        <button class="page-btn" aria-label="Page 1">1</button>
+        <button class="page-btn" aria-label="Page 2">2</button>
+        <button class="page-btn" aria-label="Page 3">3</button>
+        <button class="page-btn" aria-label="Page 4">4</button>
+        <button class="page-btn" aria-label="Page 5">5</button>
+        ...
+      </div>
 
+      <!-- Cat cards -->
+      <section class="cat-card">
+        <img src="cat1.jpg" alt="Snowy the cat" class="cat-image" />
+        <div class="cat-info">
+          <p><strong>Name:</strong> Snowy</p>
+          <p><strong>Age:</strong> 2 years</p>
+          <p><strong>Location:</strong> Selangor</p>
+        </div>
+      </section>
 
+      <section class="cat-card">
+        <img src="cat2.jpg" alt="Milo the cat" class="cat-image" />
+        <div class="cat-info">
+          <p><strong>Name:</strong> Milo</p>
+          <p><strong>Age:</strong> 1 year</p>
+          <p><strong>Location:</strong> Johor</p>
+        </div>
+      </section>
+
+      <!-- Add more cat cards as needed -->
+
+    </main>
+
+  </div>
+
+</body>
 </html>
