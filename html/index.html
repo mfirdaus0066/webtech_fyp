@@ -13,23 +13,24 @@
     <div id="logo">
       FELINES
     </div>
-  </header>
 
-  <!-- Navigation buttons -->
-  <nav id="main-nav">
-    <button id="shelter-btn">Shelter</button>
-    <button id="about-btn">About Us</button>
-    <button id="tips-btn">Tips</button>
-    <button id="profile-btn" aria-label="User Profile">🐱</button>
-  </nav>
+    <!-- Navigation buttons -->
+    <nav id="main-nav"><!--change the button tags to link tag for mw to create navigation bar-->
+        <button id="shelter-btn">Shelter</button>
+        <button id="about-btn">About Us</button>
+        <button id="tips-btn">Tips</button>
+        <button id="profile-btn" aria-label="User Profile">🐱</button>
+    </nav>
+
+  </header>
   
   <!-- Main content area -->
-  <div id="container">
+  <main>
 
     <!-- Sidebar: Search by state -->
     <aside id="search-sidebar">
       <h2>Search by State</h2>
-      <ul>
+      <ul id="state">
         <li>Selangor</li>
         <li>Johor</li>
         <li>Penang</li>
@@ -38,10 +39,10 @@
     </aside>
 
     <!-- Cat list & pagination -->
-    <main id="cat-list">
+    <div id="cat-list">
 
       <!-- Pagination -->
-      <div id="pagination">
+      <div id="pagination"><!--also change the button to link and makr it like < 1 2 3 >-->
         Page:
         <button class="page-btn" aria-label="Page 1">1</button>
         <button class="page-btn" aria-label="Page 2">2</button>
@@ -72,9 +73,9 @@
 
       <!-- Add more cat cards as needed -->
 
-    </main>
+    </div>
 
-  </div>
+</main>
 
 </body>
 </html>

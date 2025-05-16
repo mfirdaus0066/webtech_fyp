@@ -2,11 +2,7 @@ body
 {
     background-color:rgb(181, 117, 28);
     margin: 50px;
-}
-
-header
-{
-
+    margin-top: 70px;
 }
 
 #logo
@@ -22,6 +18,52 @@ header
     background-image: url(../image/felines_header-nobg_-hd.png);
     background-size:110%;
     background-repeat: no-repeat;
+    background-color:rgb(27, 132, 188);
+}
+
+#main-nav
+{
+    margin-top: 20px;
+}
+
+main
+{
+    display: flex;
+}
+
+#search-sidebar
+{
+    display:flex;
+    flex-wrap:wrap;
+    border: 2px solid;
+    width:fit-content;
+    height: 600px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float:left;
+    flex-direction: column;
+}
+
+#cat-list
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 5px;
+    float:left;
+    margin-top: 20px;
+    padding: 10px;
+    width:100%;
+}
+
+#pagination
+{
+    text-align: start;
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1920px)
@@ -31,7 +73,7 @@ header
         font-size:80px;
         padding: 20px;
         background-size: 80%;
-        background-position-y: -150px;
+        background-position-y: -140px;
     }
 }
 
@@ -55,4 +97,5 @@ header
         background-size:120%;
         background-position-y: -60px;
     }
+
 }
