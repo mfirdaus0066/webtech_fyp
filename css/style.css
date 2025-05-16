@@ -1,0 +1,22 @@
+body
+{
+    background-color:rgb(181, 117, 28);
+    margin: 100px;
+}
+
+header
+{
+    border: 5px solid;
+    border-radius: 5px;
+    border-color:rgb(118, 72, 6);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    padding:20px;
+    text-align: center;
+    color:rgb(248, 183, 55);
+    background-image: url(../image/felines_header-nobg.png);
+    background-size:cover;
+    background-position: center;;
+    background-attachment:scroll;
+  
+}
