@@ -10,7 +10,7 @@ body
     border: 5px solid;
     border-radius: 5px;
     border-color:rgb(118, 72, 6);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Special Gothic Expanded One';
     font-size: 80px;
     padding:20px;
     text-align: center;
@@ -27,6 +27,11 @@ body
     align-items:flex-start;
 }
 
+.main-nav
+{
+    width: 100%;
+}
+
 .main-nav ul
 {
     display: absolute;
@@ -37,18 +42,24 @@ body
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
-    padding-right:25vh;
-    
+    padding-right: fit-content;
 }
 
 .main-nav a
 {
+    font-family:"Special Gothic Expanded One";
     display:block;
     float:left;
     padding: 15px;
     margin: 0px;
     text-align: center;
     text-decoration: none;
+    color:sandybrown;
+}
+
+.main-nav a:hover
+{
+    background-color:rgb(165, 135, 86);
 }
 
 .main-nav li
@@ -80,7 +91,7 @@ main
 {
     display:flex;
     flex-wrap:wrap;
-    border: 2px solid;
+    border: 2px solid rgb(118, 72, 6);
     width:fit-content;
     height: 600px;
     border-radius: 5px;
@@ -93,10 +104,16 @@ main
     text-align: center;
 }
 
+#state
+{
+    list-style-type: none;
+    text-align:center;
+    padding: 0px;
+}
 #cat-list
 {
     display: flex;
-    border: 2px solid;
+    border: 2px solid rgb(118, 72, 6);
     flex-direction: column;
     border-radius: 5px;
     margin-top: 20px;
@@ -107,8 +124,14 @@ main
 
 #pagination
 {
+    text-align: center;
+}
+.page-btn
+{
+    color:rgb(94, 54, 1);
     text-decoration: none;
     font-size: 1.2em;
+    margin-left:10px;;
 }
 
 #cat-cards
@@ -128,7 +151,7 @@ main
 {
     display: flex;
     flex-direction: column;
-    border: 2px solid;
+    border: 2px solid rgb(118, 72, 6);
     margin-top:65px;
     width: fit-content;
     height:fit-content;
@@ -136,6 +159,11 @@ main
     border-radius: 5px;
 }
 
+.cat-image
+{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 1920px)
 {
     #logo
@@ -167,5 +195,4 @@ main
         background-size:120%;
         background-position-y: -60px;
     }
-
 }
