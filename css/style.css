@@ -5,6 +5,16 @@ body
     margin-top: 70px;
 }
 
+#gif
+{
+    position: absolute;
+    top:15px;
+    transform: scaleX(-1);
+    right:6vh;
+    height:auto;
+    width: 100px;
+
+}
 #logo
 {
     border: 5px solid;
@@ -71,7 +81,11 @@ body
 {
     display: flex; 
     margin-left:auto;
+}
 
+#icon:hover
+{
+    transform: scale(1.5);
 }
 
 #small-logo
