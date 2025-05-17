@@ -21,9 +21,54 @@ body
     background-color:rgb(27, 132, 188);
 }
 
-#main-nav
+#navigation
 {
-    margin-top: 20px;
+    display:flex;
+    align-items:flex-start;
+}
+
+.main-nav ul
+{
+    display: absolute;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 25px;
+    background-color:rgb(165, 79, 42);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    padding-right:25vh;
+    
+}
+
+.main-nav a
+{
+    display:block;
+    float:left;
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-nav li
+{
+    float:left;
+}
+
+#icon
+{
+    display: flex; 
+    margin-left:auto;
+
+}
+
+#small-logo
+{
+    display:relative;
+    height:75px;
+    width:75px;
+    margin-top:10px;
 }
 
 main
@@ -45,25 +90,50 @@ main
     margin-right: 20px;
     float:left;
     flex-direction: column;
+    text-align: center;
 }
 
 #cat-list
 {
     display: flex;
-    justify-content: space-between;
     border: 2px solid;
+    flex-direction: column;
     border-radius: 5px;
-    float:left;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
     width:100%;
+    gap: 20px;
 }
 
 #pagination
 {
-    text-align: start;
+    text-decoration: none;
     font-size: 1.2em;
-    margin-bottom: 20px;
+}
+
+#cat-cards
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding:20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 5px;
+    align-items: flex-start;
+}
+.cat-info
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    margin-top:65px;
+    width: fit-content;
+    height:fit-content;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1920px)

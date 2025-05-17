@@ -14,13 +14,22 @@
       FELINES
     </div>
 
+    <section id="navigation">
+
     <!-- Navigation buttons -->
-    <nav id="main-nav"><!--change the button tags to link tag for mw to create navigation bar-->
-        <button id="shelter-btn">Shelter</button>
-        <button id="about-btn">About Us</button>
-        <button id="tips-btn">Tips</button>
-        <button id="profile-btn" aria-label="User Profile">🐱</button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="">Shelter</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Tips</a></li>
+      </ul>
+       
     </nav>
+
+    <div id="icon">
+     <img src="../image/Felines.logo.png" alt="felines logo" id="small-logo">
+    </div>
+    </section>
 
   </header>
   
@@ -42,37 +51,33 @@
     <div id="cat-list">
 
       <!-- Pagination -->
-      <div id="pagination"><!--also change the button to link and makr it like < 1 2 3 >-->
+      <div id="pagination">
         Page:
-        <button class="page-btn" aria-label="Page 1">1</button>
-        <button class="page-btn" aria-label="Page 2">2</button>
-        <button class="page-btn" aria-label="Page 3">3</button>
-        <button class="page-btn" aria-label="Page 4">4</button>
-        <button class="page-btn" aria-label="Page 5">5</button>
+        <a class="page-btn" href="">1</a>
+        <a class="page-btn" href="">2</a>
+        <a class="page-btn" href="">3</a>
+        <a class="page-btn" href="">4</a>
+        <a class="page-btn" href="">5</a>
         ...
       </div>
 
       <!-- Cat cards -->
-      <section class="cat-card">
-        <img src="cat1.jpg" alt="Snowy the cat" class="cat-image" />
+      <section id="cat-cards">
         <div class="cat-info">
-          <p><strong>Name:</strong> Snowy</p>
-          <p><strong>Age:</strong> 2 years</p>
-          <p><strong>Location:</strong> Selangor</p>
+          <img src="../image/Sillycat.jpg" alt="Snowy the cat" class="cat-image" width="200">
+          <div><strong>Name:</strong> Snowy</div>
+          <div><strong>Age:</strong> 2 years</div>
+          <div><strong>Location:</strong> Selangor</div>
         </div>
-      </section>
 
-      <section class="cat-card">
-        <img src="cat2.jpg" alt="Milo the cat" class="cat-image" />
         <div class="cat-info">
-          <p><strong>Name:</strong> Milo</p>
-          <p><strong>Age:</strong> 1 year</p>
-          <p><strong>Location:</strong> Johor</p>
+          <img src="../image/Gato.jpg" alt="Milo the cat" class="cat-image" width="200">
+          <div><strong>Name:</strong> Milo</div>
+          <div><strong>Age:</strong> 1 year</div>
+          <div><strong>Location:</strong> Johor</div>
         </div>
-      </section>
-
       <!-- Add more cat cards as needed -->
-
+       </section>
     </div>
 
 </main>
