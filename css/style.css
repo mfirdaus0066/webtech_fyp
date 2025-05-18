@@ -15,6 +15,12 @@ body
     width: 100px;
 
 }
+
+a
+{
+    text-decoration: none;
+}
+
 #logo
 {
     border: 5px solid;
@@ -24,11 +30,11 @@ body
     font-size: 80px;
     padding:20px;
     text-align: center;
-    color:rgb(248, 183, 55);
+    color:rgb(213, 159, 51);
     background-image: url(../image/felines_header-nobg_-hd.png);
     background-size:110%;
     background-repeat: no-repeat;
-    background-color:rgb(27, 132, 188);
+    background-color:rgb(135, 204, 220);
 }
 
 #navigation
@@ -64,12 +70,18 @@ body
     margin: 0px;
     text-align: center;
     text-decoration: none;
-    color:sandybrown;
+    color:rgb(213, 159, 51);
 }
 
 .main-nav a:hover
 {
-    background-color:rgb(165, 135, 86);
+    background-color:rgb(118, 72, 6);
+}
+
+.main-nav a:active
+{
+    color:rgb(228, 181, 86);
+    background-color:rgb(79, 48, 4);
 }
 
 .main-nav li
@@ -105,7 +117,7 @@ main
 {
     display:flex;
     flex-wrap:wrap;
-    border: 2px solid rgb(118, 72, 6);
+    border: 4px solid rgb(118, 72, 6);
     width:fit-content;
     height: 600px;
     border-radius: 5px;
@@ -116,6 +128,9 @@ main
     float:left;
     flex-direction: column;
     text-align: center;
+    background-color:rgb(30, 132, 190);
+    color:rgb(94, 54, 1);
+    font-family:'Poetsen One';
 }
 
 #state
@@ -127,13 +142,14 @@ main
 #cat-list
 {
     display: flex;
-    border: 2px solid rgb(118, 72, 6);
+    border: 4px solid rgb(118, 72, 6);
     flex-direction: column;
     border-radius: 5px;
     margin-top: 20px;
     padding: 20px;
     width:100%;
     gap: 20px;
+    background-color:rgb(30, 132, 190);
 }
 
 #pagination
@@ -142,10 +158,23 @@ main
 }
 .page-btn
 {
-    color:rgb(94, 54, 1);
+    color:rgb(82, 36, 4);
     text-decoration: none;
     font-size: 1.2em;
-    margin-left:10px;;
+    margin: auto;
+    border: 2px solid rgb(155, 105, 35);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(155, 105, 35);
+    font-weight:bold;
+    font-family:'Poetsen One';
+}
+
+.page-btn:hover
+{
+    font-size: 1.1em;
+    border: 2px solid rgb(140, 88, 16);
+    background-color:rgb(140, 88, 16);
 }
 
 #cat-cards
@@ -165,12 +194,14 @@ main
 {
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(118, 72, 6);
+    border: 3px solid rgb(118, 72, 6);
     margin-top:65px;
     width: fit-content;
-    height:fit-content;
+    height: fit-content;
     padding: 10px;
     border-radius: 5px;
+    color:rgb(82, 36, 4);
+    font-family:'Poetsen One';
 }
 
 .cat-image
@@ -185,7 +216,7 @@ main
         font-size:80px;
         padding: 20px;
         background-size: 80%;
-        background-position-y: -140px;
+        background-position-y: -145px;
     }
 }
 
