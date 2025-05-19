@@ -1,4 +1,4 @@
-#about-us
+main
 {
     display: flex;
     flex-direction: column;
@@ -8,16 +8,34 @@
     padding: 20px;
 }
 
+#info-icon
+{
+    display:flex;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    padding:0px;
+    margin: 0px;
+}
+
 #why-section
 {
     display:flex;
     border: 1px solid;
-    flex-direction:column;
+    flex-direction:row;
+    font-family:monospace;
+    font-size: 1.2em;
+}
+
+#why-title
+{
+    display: flex;
+    flex-direction: column;
 }
 
 #team-section
 {
-    display: felx;
+    display: flex;
     flex-direction: column;
     border: 1px solid;
 }
@@ -34,4 +52,12 @@
     flex-direction: row;
     justify-content:left;
     border: 1px solid;
+}
+
+.member-pic
+{
+    height:100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
 }
