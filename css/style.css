@@ -115,6 +115,7 @@ main
 
 #search-sidebar
 {
+    position: relative;
     display:flex;
     flex-wrap:wrap;
     border: 4px solid rgb(118, 72, 6);
@@ -131,6 +132,16 @@ main
     background-color:rgb(30, 132, 190);
     color:rgb(94, 54, 1);
     font-family:'Poetsen One';
+    overflow:hidden;
+}
+
+#search-icon
+{
+    position:absolute;
+    height: 250px;
+    top:450px;
+    left:-25px;
+    right: 0px;
 }
 
 #state
@@ -139,6 +150,7 @@ main
     text-align:center;
     padding: 0px;
 }
+
 #cat-list
 {
     display: flex;
@@ -210,16 +222,6 @@ main
     margin-bottom: 10px;
 }
 
-#about-us
-{
-    display: flex;
-    flex-direction: column;
-    border: 3px solid rgb(118, 72, 6);
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 20px;
-}
-
 @media screen and (max-width: 1920px)
 {
     #logo
@@ -240,6 +242,12 @@ main
         background-size: 100%;
         background-position-y: -60px;
     }
+
+       #search-icon
+    {
+        left:-38px;
+        right: 0px; 
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -250,5 +258,11 @@ main
         padding:10px;
         background-size:120%;
         background-position-y: -60px;
+    }
+
+    #search-icon
+    {
+        left:-55px;
+        right: 0px; 
     }
 }

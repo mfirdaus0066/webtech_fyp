@@ -1,0 +1,37 @@
+#about-us
+{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(118, 72, 6);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#why-section
+{
+    display:flex;
+    border: 1px solid;
+    flex-direction:column;
+}
+
+#team-section
+{
+    display: felx;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.member-info
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.member
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    border: 1px solid;
+}
