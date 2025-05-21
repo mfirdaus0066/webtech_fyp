@@ -1,6 +1,6 @@
 body
 {
-    background-color:rgb(181, 117, 28);
+    background-color:rgb(212, 170, 112);
     margin: 50px;
     margin-top: 70px;
 }
@@ -129,7 +129,7 @@ main
     float:left;
     flex-direction: column;
     text-align: center;
-    background-color:rgb(30, 132, 190);
+    background-color:rgb(128, 185, 219);
     color:rgb(94, 54, 1);
     font-family:'Poetsen One';
     overflow:hidden;
@@ -161,7 +161,7 @@ main
     padding: 20px;
     width:100%;
     gap: 20px;
-    background-color:rgb(30, 132, 190);
+    background-color:rgb(128, 185, 219);
 }
 
 #pagination
@@ -194,8 +194,8 @@ main
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-around;
-    padding:20px;
+    justify-content:flex-start;
+    padding:10px;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -248,6 +248,12 @@ main
         left:-38px;
         right: 0px; 
     }
+
+     #cat-cards
+    {
+        display:flex;
+        justify-content:space-around;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -264,5 +270,11 @@ main
     {
         left:-55px;
         right: 0px; 
+    }
+
+    #cat-cards
+    {
+        display:flex;
+        justify-content:space-around;
     }
 }
