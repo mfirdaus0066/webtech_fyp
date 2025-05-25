@@ -52,6 +52,7 @@
     flex-direction: row;
     justify-content:left;
     border: 1px solid;
+    margin:10px;
 }
 
 .member-pic
@@ -60,4 +61,24 @@
     width: 100px;
     border: 2px solid;
     border-radius: 50%;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.organizing
+{
+    display:flex;
+    flex-direction: row;
+}
+
+#position
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pic
+{
+    display: flex;
+    justify-content: flex-end; 
 }
