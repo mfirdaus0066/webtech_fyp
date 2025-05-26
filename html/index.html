@@ -25,7 +25,7 @@
         <li><a href="../html/index.html">Home</a></li>
         <li><a href="">Shelter</a></li>
         <li><a href="../html/About_us.html">About Us</a></li>
-        <li><a href="">Tips</a></li>
+        <li><a href="../html/tips.html">Tips</a></li>
       </ul>
        
     </nav>
@@ -60,11 +60,11 @@
 
       <!-- Pagination -->
       <div id="pagination">
-        <a class="page-btn" href=""><</a>
-        <a class="page-btn" href="../html/index.html">1</a>
-        <a class="page-btn" href="../html/page2.html">2</a>
-        <a class="page-btn" href="../html/page3.html">3</a>
-        <a class="page-btn" href="">></a>
+        <button onclick="prevPage()" class="page-btn" ><</button>
+        <button onclick="gotoPage(1)" class="page-btn" >1</button>
+        <button onclick="gotoPage(2)" class="page-btn" >2</button>
+        <button onclick="gotoPage(3)" class="page-btn" >3</button>
+        <button onclick="nextPage()" class="page-btn" >></button>
       </div>
 
       <!-- Cat cards -->
@@ -92,8 +92,7 @@
       <p id="footer-text">© 2025 Felines.</p>
   </footer>
 
-  <script src="../javascript/index.js">
-    
-  </script><!-- better to put js at the bottom to prevent that much error-->
+  <script src="../javascript/index.js"></script><!-- better to put js at the bottom to prevent that much error-->
+
 </body>
 </html>
