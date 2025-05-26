@@ -2,10 +2,11 @@
 {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(118, 72, 6);
+    border: 3px solid #5E6472;
     border-radius: 5px;
     margin-top: 20px;
     padding: 20px;
+    background-color:#AED9E0;
 }
 
 #info-icon
@@ -24,8 +25,8 @@
     flex-direction:row;
     font-family:'Poetsen One';
     font-size: 1.2em;
-    color:rgb(94, 54, 1);
-    border-bottom:2px solid rgb(118, 72, 6);
+    color:#dc6b61;;
+    border-bottom:2px solid #5E6472;
 }
 
 #why-title
@@ -44,6 +45,7 @@
 {
     display:flex;
     flex-direction: column;
+    
 }
 
 .member
@@ -53,14 +55,14 @@
     justify-content:left;
     margin:5px;
     font-family:'Poetsen One';
-    color:rgb(94, 54, 1);
+    color:#dc6b61;;
 }
 
 .member-pic
 {
     height:100px;
     width: 100px;
-    border: 2px solid rgb(94, 54, 1);
+    border: 2px solid #5E6472;
     border-radius: 50%;
     margin-top: auto;
     margin-bottom:auto;
@@ -89,5 +91,5 @@
     display:flex;
     justify-content: center;
     font-family:'Poetsen One';
-    color:rgb(94, 54, 1);
+    color:#dc6b61;;
 }

@@ -236,8 +236,19 @@ main
 {
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 0px;
     width: 300px;
     height: 300px;
+    opacity: 50%;
+}
+
+#warning-text
+{
+    margin:0;
+    text-align: center;
+    font-family: 'Poetsen One';
+    color:#dc6b61;
+    opacity: 50%;
 }
 
 @media screen and (max-width: 1920px)
