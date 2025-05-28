@@ -2,18 +2,19 @@
 {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(118, 72, 6);
+    border: 4px solid #5E6472;
     border-radius: 5px;
     margin-top: 20px;
     padding: 20px;
+    background-color:#AED9E0;
 }
 
 #info-icon
 {
     display:flex;
     align-items: center;
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     padding:0px;
     margin: 0px;
 }
@@ -21,10 +22,11 @@
 #why-section
 {
     display:flex;
-    border: 1px solid;
     flex-direction:row;
-    font-family:monospace;
+    font-family:'Poetsen One';
     font-size: 1.2em;
+    color:#dc6b61;;
+    border-bottom:2px solid #5E6472;
 }
 
 #why-title
@@ -37,13 +39,13 @@
 {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
 }
 
 .member-info
 {
     display:flex;
     flex-direction: column;
+    
 }
 
 .member
@@ -51,13 +53,43 @@
     display: flex;
     flex-direction: row;
     justify-content:left;
-    border: 1px solid;
+    margin:5px;
+    font-family:'Poetsen One';
+    color:#dc6b61;;
 }
 
 .member-pic
 {
     height:100px;
     width: 100px;
-    border: 2px solid;
+    border: 2px solid #5E6472;
     border-radius: 50%;
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.organizing
+{
+    display:flex;
+    flex-direction: row;
+}
+
+#position
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pic
+{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+#team-title
+{
+    display:flex;
+    justify-content: center;
+    font-family:'Poetsen One';
+    color:#dc6b61;;
 }

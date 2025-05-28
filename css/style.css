@@ -1,6 +1,6 @@
 body
 {
-    background-color:rgb(212, 170, 112);
+    background-color:#FAF3DD;
     margin: 50px;
     margin-top: 70px;
 }
@@ -13,7 +13,6 @@ body
     right:6vh;
     height:auto;
     width: 100px;
-
 }
 
 a
@@ -23,18 +22,22 @@ a
 
 #logo
 {
-    border: 5px solid;
+    border: 5px solid #5E6472;
     border-radius: 5px;
-    border-color:rgb(118, 72, 6);
     font-family:'Special Gothic Expanded One';
     font-size: 80px;
     padding:20px;
     text-align: center;
-    color:rgb(213, 159, 51);
+    color: #dc6b61;
     background-image: url(../image/felines_header-nobg_-hd.png);
     background-size:110%;
     background-repeat: no-repeat;
-    background-color:rgb(135, 204, 220);
+    background-color:#AED9E0;
+}
+
+#logo:hover
+{
+    cursor:url(../image/cat.png), auto;
 }
 
 #navigation
@@ -54,7 +57,7 @@ a
     list-style-type: none;
     padding: 0px;
     margin-top: 25px;
-    background-color:rgb(165, 79, 42);
+    background-color:#B8F2E6;
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -70,18 +73,20 @@ a
     margin: 0px;
     text-align: center;
     text-decoration: none;
-    color:rgb(213, 159, 51);
+    color:#dc6b61;
 }
 
 .main-nav a:hover
 {
-    background-color:rgb(118, 72, 6);
+    background-color:#7dc6b7;
+    cursor:url(../image/cat.png), auto;
 }
 
 .main-nav a:active
 {
-    color:rgb(228, 181, 86);
-    background-color:rgb(79, 48, 4);
+    color:#efaba5;
+    background-color:#50a896;
+    cursor:url(../image/cat.png), auto;
 }
 
 .main-nav li
@@ -92,7 +97,6 @@ a
 #icon
 {
     display: flex; 
-    margin-left:auto;
 }
 
 #icon:hover
@@ -108,6 +112,11 @@ a
     margin-top:10px;
 }
 
+#small-logo:hover
+{
+    cursor:url(../image/cat.png), auto;
+}
+
 main
 {
     display: flex;
@@ -118,7 +127,7 @@ main
     position: relative;
     display:flex;
     flex-wrap:wrap;
-    border: 4px solid rgb(118, 72, 6);
+    border: 4px solid #5E6472;
     width:fit-content;
     height: 600px;
     border-radius: 5px;
@@ -129,8 +138,8 @@ main
     float:left;
     flex-direction: column;
     text-align: center;
-    background-color:rgb(128, 185, 219);
-    color:rgb(94, 54, 1);
+    background-color:#AED9E0;
+    color:#dc6b61;
     font-family:'Poetsen One';
     overflow:hidden;
 }
@@ -154,30 +163,34 @@ main
 #cat-list
 {
     display: flex;
-    border: 4px solid rgb(118, 72, 6);
+    border: 4px solid #5E6472;
     flex-direction: column;
     border-radius: 5px;
     margin-top: 20px;
     padding: 20px;
     width:100%;
     gap: 20px;
-    background-color:rgb(128, 185, 219);
+    background-color:#AED9E0;
 }
 
 #pagination
 {
     text-align: center;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
 }
 .page-btn
 {
-    color:rgb(82, 36, 4);
+    color:#dc6b61;
     text-decoration: none;
     font-size: 1.2em;
     margin: auto;
-    border: 2px solid rgb(155, 105, 35);
+    border: 2px solid #5E6472;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: rgb(155, 105, 35);
+    background-color: #B8F2E6;
     font-weight:bold;
     font-family:'Poetsen One';
 }
@@ -185,8 +198,9 @@ main
 .page-btn:hover
 {
     font-size: 1.1em;
-    border: 2px solid rgb(140, 88, 16);
-    background-color:rgb(140, 88, 16);
+    border: 2px solid #5E6472;
+    background-color:#92d3c6;
+    cursor:url(../image/cat.png), auto;
 }
 
 #cat-cards
@@ -206,20 +220,40 @@ main
 {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(118, 72, 6);
+    border: 3px solid #5E6472;
     margin-top:65px;
     width: fit-content;
     height: fit-content;
     padding: 10px;
     border-radius: 5px;
-    color:rgb(82, 36, 4);
+    color:#dc6b61;
     font-family:'Poetsen One';
+    background-color:#7EB2DD;
 }
 
 .cat-image
 {
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+#warning
+{
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 300px;
+    opacity: 50%;
+}
+
+#warning-text
+{
+    margin:0;
+    text-align: center;
+    font-family: 'Poetsen One';
+    color:#dc6b61;
+    opacity: 50%;
 }
 
 @media screen and (max-width: 1920px)
