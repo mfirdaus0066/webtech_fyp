@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>FELINES</title>
   <link rel="icon" type="image/png" sizes="64x64" href="../image/Felines.logo.png">
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/font.css">
 </head>
 <body>
@@ -25,7 +25,7 @@
         <li><a href="../html/index.html">Home</a></li>
         <li><a href="">Shelter</a></li>
         <li><a href="../html/About_us.html">About Us</a></li>
-        <li><a href="">Tips</a></li>
+        <li><a href="../html/tips.html">Tips</a></li>
       </ul>
        
     </nav>
@@ -60,11 +60,11 @@
 
       <!-- Pagination -->
       <div id="pagination">
-        <a class="page-btn" href=""><</a>
-        <a class="page-btn" href="../html/index.html">1</a>
-        <a class="page-btn" href="../html/page2.html">2</a>
-        <a class="page-btn" href="../html/page3.html">3</a>
-        <a class="page-btn" href="">></a>
+        <button onclick="prevPage()" class="page-btn" ><</button>
+        <button onclick="gotoPage(1)" class="page-btn" >1</button>
+        <button onclick="gotoPage(2)" class="page-btn" >2</button>
+        <button onclick="gotoPage(3)" class="page-btn" >3</button>
+        <button onclick="nextPage()" class="page-btn" >></button>
       </div>
 
       <!-- Cat cards -->
@@ -74,6 +74,7 @@
           <div><strong>Name:</strong> Snowy the white</div>
           <div><strong>Age:</strong> 2 years</div>
           <div><strong>State:</strong> Selangor</div>
+          <div><strong>Status:</strong> Available</div>
         </div>
 
         <div class="cat-info">
@@ -81,6 +82,7 @@
           <div><strong>Name:</strong> Milo and ribena</div>
           <div><strong>Age:</strong> 1 year</div>
           <div><strong>State:</strong> Johor</div>
+          <div><strong>Status:</strong> Adopted</div>
         </div>
       <!-- Add more cat cards as needed -->
        </section>
@@ -92,8 +94,7 @@
       <p id="footer-text">© 2025 Felines.</p>
   </footer>
 
-  <script src="../javascript/index.js">
-    
-  </script><!-- better to put js at the bottom to prevent that much error-->
+  <script src="../javascript/index.js"></script><!-- better to put js at the bottom to prevent that much error-->
+
 </body>
 </html>
