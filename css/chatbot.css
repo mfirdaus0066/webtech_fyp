@@ -1,13 +1,3 @@
-
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #121212;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
 /* Floating Chat Icon */
 #chatbot-icon {
   position: fixed;

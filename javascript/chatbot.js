@@ -1,80 +1,71 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const chatbotcontainer = document.getElementById("chatbot-container");
-    const Closebtn = document.getElementById("close-btn");
-    const SendBtn = document.getElementById("send-btn");
-    const ChatbotInput = document.getElementById("chatbot-input");
-    const ChatbotMessages = document.getElementById("chatbot-messages");
+document.addEventListener("DOMContentLoaded", function () {
+  const chatbotContainer = document.getElementById("chatbot-container");
+  const closeBtn = document.getElementById("close-btn");
+  const sendBtn = document.getElementById("send-btn");
+  const chatbotInput = document.getElementById("chatbot-input");
+  const chatbotMessages = document.getElementById("chatbot-messages");
 
-    const ChatbotIcon = document.getElementById("chatbot-icon");
-    const Closebutton = document.getElementById("close-btn");
+  const chatbotIcon = document.getElementById("chatbot-icon");
+  const closeButton = document.getElementById("close-btn");
 
-    // Toggle chatbot visibility
-    ChatbotIcon.addEventListener("click", function() {
-        chatbotcontainer.classList.remove("hidden");
-        ChatbotIcon.style.display = "none";
-    });
+  chatbotIcon.addEventListener("click", function () {
+    chatbotContainer.classList.remove("hidden");
+    chatbotIcon.style.display = "none"; 
+  });
 
-    // Close chatbot
-    Closebutton.addEventListener("click", function() {
-        chatbotcontainer.classList.add("hidden");
-        ChatbotIcon.style.display = "flex";
-    });
+  closeButton.addEventListener("click", function () {
+    chatbotContainer.classList.add("hidden");
+    chatbotIcon.style.display = "flex"; 
+  });
 
-    // Send message on button click
-    SendBtn.addEventListener("click",sendMessage);
-    ChatbotInput.addEventListener("keypress",function(e){
-        if (e.key === "Enter") {
-            e.preventDefault(); 
-            sendMessage();
-        }
-    });
-});
-
-function sendMessage()
-{
-    const userMessage = ChatbotInput.value.trim();
-    if (userMessage)
-    {
-        appendmessage("user", userMessage);
-        ChatbotInput.value = "";
-        getBotResponse(userMessage);
+  sendBtn.addEventListener("click", sendMessage);
+  chatbotInput.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      sendMessage();
     }
-}
+  });
 
-function appendmessage(sender, message) 
-{
+  function sendMessage() {
+    const userMessage = chatbotInput.value.trim();
+    if (userMessage) {
+      appendMessage("user", userMessage);
+      chatbotInput.value = "";
+      getBotResponse(userMessage);
+    }
+  }
+
+  function appendMessage(sender, message) {
     const messageElement = document.createElement("div");
     messageElement.classList.add("message", sender);
     messageElement.textContent = message;
-    ChatbotMessages.appendChild(messageElement);
-    ChatbotMessages.scrollTop = ChatbotMessages.scrollHeight;
-}
+    chatbotMessages.appendChild(messageElement);
+    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+  }
 
-async function getBotResponse(userMessage)
-{
-    const apiKey = "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";
+  async function getBotResponse(userMessage) {
+    const apiKey = "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"; 
     const apiUrl = "https://api.openai.com/v1/chat/completions";
 
-    try{
-        const response = await fetch(apiUrl,{
-            method: "POST",
-            headers :{
-                "content-type" : "application/json",
-                Authhorization: `Bearer ${apiKey}`
-            },
-            body: JSON.stringify({
-                model: "gpt-3.5-turbo",
-                messages: [
-                    { role: "user", content: userMessage }],
-                    max_token: 150,
-            }),
-        });
-        const data = await response.json();
-        const botMessage = data.choices[0].message.content;
-        appendMessage("bot", botMessage);
-    }
-    catch (error) {
+    try {
+      const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: "gpt-3.5-turbo",
+          messages: [{ role: "user", content: userMessage }],
+          max_tokens: 150,
+        }),
+      });
+
+      const data = await response.json();
+      const botMessage = data.choices[0].message.content;
+      appendMessage("bot", botMessage);
+    } catch (error) {
       console.error("Error fetching bot response:", error);
       appendMessage("bot", "Sorry, something went wrong. Please try again.");
     }
-}
+  }
+});
