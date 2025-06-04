@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/font.css">
   <link rel="stylesheet" href="../css/style-tips.css">
+  <link rel="stylesheet" href="/webtech_fyp/css/chatbot.css" />
 </head>
 <body>
 
@@ -52,9 +53,23 @@
 
   <footer>
     <p id="footer-text">© 2025 Felines.</p>
-  </footer>
+  </footer> <div id="chatbot-icon">💬</div>
+    <div id="chatbot-container" class="hidden">
+      <div id="chatbot-header">
+        <span>Chatbot</span>
+        <button id="close-btn">&times;</button>
+      </div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+      </div>
+      <div id="chatbot-input-container">
+        <input type="text" id="chatbot-input" placeholder="Type a message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
 
   <script src="../javascript/tips.js"></script>
+  <script src="/webtech_fyp/javascript/chatbot.js"></script>
 
 </body>
 </html>
