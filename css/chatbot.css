@@ -1,5 +1,6 @@
 /* Floating Chat Icon */
-#chatbot-icon {
+#chatbot-icon 
+{
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -13,17 +14,19 @@
   align-items: center;
   border-radius: 50%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
+  cursor: url(../image/cat.png), auto;
   transition: transform 0.2s, background-color 0.2s;
 }
 
-#chatbot-icon:hover {
+#chatbot-icon:hover 
+{
   background-color: #b71c1c;
   transform: scale(1.1);
 }
 
 /* Chatbot Container */
-#chatbot-container {
+#chatbot-container 
+{
   position: fixed;
   bottom: 80px;
   right: 20px;
@@ -38,12 +41,14 @@
 }
 
 /* Hide Chatbot Initially */
-.hidden {
+.hidden 
+{
   display: none !important;
 }
 
 /* Chatbot Header */
-#chatbot-header {
+#chatbot-header 
+{
   background-color: #d32f2f;
   color: white;
   padding: 15px;
@@ -55,7 +60,8 @@
   font-size: 18px;
 }
 
-#close-btn {
+#close-btn 
+{
   background: none;
   border: none;
   color: white;
@@ -64,46 +70,53 @@
 }
 
 /* Chatbot Body */
-#chatbot-body {
+#chatbot-body 
+{
   flex: 1;
   padding: 10px;
   overflow-y: auto;
 }
 
 /* Chatbot Messages */
-#chatbot-messages {
+#chatbot-messages
+{
   display: flex;
   flex-direction: column;
 }
 
-.message {
+.message 
+{
   margin-bottom: 15px;
   padding: 12px;
   border-radius: 8px;
   max-width: 85%;
 }
 
-.message.user {
+.message.user 
+{
   background-color: #d32f2f;
   color: white;
   align-self: flex-end;
 }
 
-.message.bot {
+.message.bot 
+{
   background-color: #333;
   color: white;
   align-self: flex-start;
 }
 
 /* Input Section */
-#chatbot-input-container {
+#chatbot-input-container 
+{
   display: flex;
   padding: 10px;
   border-top: 1px solid #444;
   background-color: #2c2c2c;
 }
 
-#chatbot-input {
+#chatbot-input 
+{
   flex: 1;
   padding: 10px;
   border: 1px solid #444;
@@ -112,7 +125,8 @@
   color: white;
 }
 
-#send-btn {
+#send-btn 
+{
   margin-left: 10px;
   padding: 10px 15px;
   background-color: #d32f2f;
@@ -123,6 +137,7 @@
   font-size: 16px;
 }
 
-#send-btn:hover {
+#send-btn:hover 
+{
   background-color: #b71c1c;
 }

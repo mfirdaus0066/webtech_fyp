@@ -43,19 +43,24 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "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"; 
-    const apiUrl = "https://api.openai.com/v1/chat/completions";
+    const apiKey = "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";
+    const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
     try {
       const response = await fetch(apiUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${apiKey}`,
+          "Authorization": `Bearer ${apiKey}`,
+          "HTTP-Referer": "http://localhost",
+          "X-Title": "Felines chatbot",
         },
         body: JSON.stringify({
-          model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: userMessage }],
+          model: "mistralai/mistral-7b-instruct",
+          messages: [
+            { role: "system", content: "You are a friendly cat adoption assistant that gives tips to the user." },
+            { role: "user", content: userMessage }
+          ],
           max_tokens: 150,
         }),
       });
