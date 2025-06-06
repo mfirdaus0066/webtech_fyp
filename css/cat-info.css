@@ -1,0 +1,317 @@
+#cat-biodata
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+#bio-head
+{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poetsen One';
+    color:#dc6b61;
+    text-align: center;
+    margin-top: 20px;
+    border:5px solid #5E6472;
+    border-radius: 10px;
+    background-color: #AED9E0;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+#bio-icon
+{
+    position:absolute;
+    width:225px;
+    height:225px;
+    padding:0px;
+    left: 5px;
+    top: -65px;
+}
+
+.detail-info
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color:#AED9E0;
+    padding: 20px;
+    border: 5px solid #5E6472;
+    border-radius: 10px;
+    margin-bottom:2px;
+}
+
+#info-text
+{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:20px;
+    font-family: 'Poetsen One';
+    color:#dc6b61;
+}
+
+#action-btn
+{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border:5px solid #5E6472;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #AED9E0;
+}
+
+button
+{
+    font-family:'Poetsen One';
+    padding: 10px;
+    padding-inline:20px;
+    border-radius:15px;
+    background-color:#B8F2E6;
+    border:3px solid #5E6472;
+    color:#dc6b61;
+    font-size: 1.1em;
+}
+
+button:hover
+{
+    background-color:#92d3c6;
+    border:3px solid #5E6472;
+    cursor:url(../image/cat.png), auto;
+    font-size:1em;
+}
+
+button:active
+{
+    color:#efaba5;
+    background-color:#50a896;
+    cursor:url(../image/cat.png), auto;
+}
+
+.hidden
+{
+    display:none;
+}
+
+#overlay
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 400;
+}
+
+#popup
+{
+    position:fixed;
+    top:30%;
+    background:#7EB2DD;
+    text-align:center;
+    padding:20px;
+    border: 3px solid #5E6472;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(45, 41, 41, 0.5);
+    z-index: 500;
+}
+
+#popup h3
+{
+    border:2px solid #5E6472;
+    padding:10px;
+    border-radius: 5px;
+    background-color: #AED9E0;
+}
+
+#popup button
+{
+    font-family:'Poetsen One';
+    padding: 10px;
+    padding-inline:20px;
+    border-radius:15px;
+    background-color:#B8F2E6;
+    border:3px solid #5E6472;
+    color:#dc6b61;
+    font-size: 0.9em;
+}
+
+#popup button:hover
+{
+    background-color:#92d3c6;
+    border:3px solid #5E6472;
+    cursor:url(../image/cat.png), auto;
+    font-size:0.8em;
+}
+
+#popup button:active
+{
+    color:#efaba5;
+    background-color:#50a896;
+    cursor:url(../image/cat.png), auto;
+}
+
+#popup input
+{
+    padding:5px;
+    border-radius:5px;
+    font-family: 'Poetsen One';
+}
+#popup label
+{
+    font-family: 'Poetsen One';
+    color:#c45a50;
+}
+
+#popup textarea
+{
+    padding:5px;
+    width: 100%;
+    margin-top:3px;
+    font-family: 'Poetsen One';
+    border-radius:5px;
+}
+
+#cat-cards
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    border: 5px solid #5E6472;
+    border-radius: 10px;
+    background-color: #AED9E0;
+    margin-top: 2px;
+}
+
+#cat-cards h3
+{
+    text-align: center;
+    padding-inline: 40%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5E6472;
+}
+
+h3
+{
+    font-family: 'Poetsen One';
+    color:#dc6b61;
+}
+#cat-cards:hover a
+{
+    cursor: url(../image/cat.png), auto;
+}
+
+.cat-info
+{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #5E6472;
+    padding: 10px;
+    border-radius: 10px;
+    color:#dc6b61;
+    font-family:'Poetsen One';
+    background-color:#7EB2DD;
+}
+
+.cat-image
+{
+    width:275px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #5E6472;
+}
+
+.more-cat
+{
+    width:200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1920px)
+{
+    #logo
+    {
+        font-size:80px;
+        padding: 20px;
+        background-size: 80%;
+        background-position-y: -145px;
+    }
+}
+
+@media screen and (max-width: 960px)
+{
+      #bio-icon
+    {
+        width:200px;
+        height:200px;
+        left: 0px;
+        top: -55px;
+    }
+
+    #logo
+    {
+        font-size:80px;
+        padding: 20px;
+        background-size: 100%;
+        background-position-y: -60px;
+    }
+
+     #cat-cards
+    {
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .cat-image
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:220px;
+        height:225px;
+        border-radius: 5px;
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    #bio-icon
+    {
+        width:150px;
+        height:150px;
+        left: -20px;
+        top: -30px;
+    }
+
+    #logo
+    {
+        font-size: 50px;
+        padding:10px;
+        background-size:120%;
+        background-position-y: -60px;
+    }
+
+    #cat-cards
+    {
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .cat-image
+    {
+        display:flex;
+        align-items:center;
+        width:200px;
+        height:205px;
+        border-radius: 5px;
+    }
+}

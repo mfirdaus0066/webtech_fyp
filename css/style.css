@@ -203,19 +203,30 @@ main
     cursor:url(../image/cat.png), auto;
 }
 
+.page-btn:active
+{
+    color:#efaba5;
+    background-color:#50a896;
+    cursor:url(../image/cat.png), auto;
+}
+
 #cat-cards
 {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:flex-start;
-    padding:10px;
+    padding-bottom:10px;
     padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
     gap: 5px;
     align-items: flex-start;
 }
+
+#cat-cards:hover a
+{
+    cursor: url(../image/cat.png), auto;
+}
+
 .cat-info
 {
     display: flex;
@@ -225,7 +236,7 @@ main
     width: fit-content;
     height: fit-content;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     color:#dc6b61;
     font-family:'Poetsen One';
     background-color:#7EB2DD;

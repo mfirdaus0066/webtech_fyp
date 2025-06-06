@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Snowy's Biodata</title>
+  <title>FELINES</title>
   <link rel="icon" type="image/png" sizes="64x64" href="../image/Felines.logo.png">
   <link rel="stylesheet" href="../css/style.css" >
-  <link rel="stylesheet" href="../css/style-about.css" >
+  <link rel="stylesheet" href="../css/cat-info.css" >
   <link rel="stylesheet" href="../css/font.css">
 </head>
 <body>
@@ -33,35 +33,54 @@
 
   <!-- Main cat biodata -->
   <main>
-    <section style="padding: 20px;">
+    <section id="cat-biodata">
+      <div id="bio-head">
+      <img src="../image/shelter-icon-nobg.png" alt="biodata icon" id="bio-icon">
       <h2>Snowy's Biodata</h2>
-
-      <div class="cat-info" style="margin-bottom: 20px;">
-        <img src="../image/Sillycat.jpg" alt="Snowy the cat" class="cat-image" width="200">
-        <div><strong>Name:</strong> Snowy the snower</div>
-        <div><strong>Type:</strong> British Long-Hair</div>
-        <div><strong>Colour:</strong> White</div>
-        <div><strong>Age:</strong> 200 years</div>
-        <div><strong>Adopt Place:</strong> Paws Shelter, Selangor</div>
       </div>
 
-      <!-- Adopt Now and Location buttons -->
-      <div style="margin: 20px 0;">
-        <a href="https://example.com/adopt-snowy" target="_blank">
-          <button>Adopt Now</button>
-        </a>
+      <div class="detail-info">
+        <img src="../image/Sillycat.jpg" alt="Snowy the cat" class="cat-image">
+        <div id="info-text">
+          <p><strong>Name:</strong> Snowy the snower</p>
+          <p><strong>Type:</strong> British Long-Hair</p>
+          <p><strong>Colour:</strong> White</p>
+          <p><strong>Age:</strong> 200 years</p>
+          <p><strong>Adopt Place:</strong> Paws Shelter, Selangor</p>
+        </div>
+
+      </div>
+
+        <!-- Adopt Now and Location buttons -->
+        <section id="action-btn">
+        
+          <button onclick="openPopup()">Adopt Now</button>
+            <div id="overlay" class="hidden"></div>
+              <div id="popup" class="hidden">
+                <form id="emailform" action="mailto:mfirdaus120606@gmail.com">
+                  <h3>Adoption request</h3>
+                  <input type="email" name="user_email" placeholder="Enter your email" required>
+                  <br>
+                  <label for="message">Request:</label>
+                  <textarea name="message" id="message" rows="5" placeholder="write your request here..." required></textarea>
+                  <button type="submit">Send request</button>
+                  <button type="button" onclick="closePopup()">Cancel</button>
+                </form>
+              </div>
+            </div>
 
         <a href="https://maps.google.com/?q=Paws+Shelter+Selangor" target="_blank">
           <button>Location</button>
         </a>
-      </div>
+      </section>
 
       <!-- Discover More section -->
-      <hr />
-      <h3>Discover More Cats</h3>
       <section id="cat-cards">
+
+        <h3>Discover More Cats</h3>
+
         <div class="cat-info">
-          <img src="../image/Gato.jpg" alt="Milo the cat" class="cat-image" width="200">
+          <img src="../image/Gato.jpg" alt="Milo the cat" class="more-cat">
           <div><strong>Name:</strong> Milo and Ribena</div>
           <div><strong>Age:</strong> 1 year</div>
           <div><strong>State:</strong> Johor</div>
@@ -76,5 +95,6 @@
     <p id="footer-text">© 2025 Felines.</p>
   </footer>
 
+  <script src="../javascript/cat-bio.js"></script>
 </body>
 </html>
