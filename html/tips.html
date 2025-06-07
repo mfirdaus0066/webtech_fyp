@@ -2,12 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>FELINES</title>
+  <title>FELINES TIPS</title>
   <link rel="icon" type="image/png" sizes="64x64" href="../image/Felines.logo.png">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/font.css">
   <link rel="stylesheet" href="../css/style-tips.css">
-  <link rel="stylesheet" href="../css/chatbot.css" />
+  <!--<link rel="stylesheet" href="../css/chatbot.css" />-->
 </head>
 <body>
 
@@ -37,21 +37,28 @@
   <!-- Main content -->
   <main id="tips">
     <section id="tips-intro">
+
+      <img src="../image/tips-icon-nobg.png" id="tips-icon">
+
+      <div id="tips-text">
       <h2>Cat Care Tips</h2>
       <p>
         First time taking care of cats? Don’t worry, we’ve got all the essential tips you need to raise a happy and healthy feline companion.
         From feeding and grooming to understanding behavior, our tips will guide you every step of the way.
         We’ve also added an AI helper that can answer your questions and help you with common cat care problems.
       </p>
+      </div>
     </section>
 
     <!-- Placeholder for AI chat -->
     <section id="chatbox-placeholder">
       <!-- Your AI chat will be injected here by JavaScript -->
-        <div id="chatbot-icon">💬</div>
+        <img src="../image/bot-icon-nobg.png" id="chatbot-icon">
+        <p id="chat-clue">click the icon on the right to ask our AI to help you with any question for taking care of your cat</p>
       <div id="chatbot-container" class="hidden">
+        
         <div id="chatbot-header">
-          <span>Chatbot</span>
+          <span>Felines AI Helper</span>
           <button id="close-btn">&times;</button>
         </div>
         <div id="chatbot-body">
