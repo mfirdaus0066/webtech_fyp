@@ -13,7 +13,7 @@ function closePopup()
 document.addEventListener("DOMContentLoaded", function () {
     const cats = {
 
-        1:{ name: "snowy", age: "2 years", breed: "british long hair", color: "white", place: "selangor", image: "../image/Sillycat.jpg", status: "Available" },
+        1:{ name: "snowy", age: "2 years", breed: "british long hair", color: "white", place: "selangor", image: "../image/Snowy.jpg", status: "Available" },
 
         2:{ name: "milo", age: "1 years", breed: "persian", color: "brown", place: "johor", image: "../image/Gato.jpg", status: "Adopted" },
 
