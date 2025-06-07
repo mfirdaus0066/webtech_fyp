@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("intro").innerHTML = `${cat.name} Biodata`;
         document.getElementById("cat-name").innerHTML = `<strong>Name:</strong> ${cat.name}`;
-        document.getElementById("cat-age").innerHTML = `<strong>Age:</strong>${cat.age}`;
+        document.getElementById("cat-age").innerHTML = `<strong>Age:</strong> ${cat.age}`;
         document.getElementById("cat-breed").innerHTML = `<strong>Breed:</strong> ${cat.breed}`;
         document.getElementById("cat-color").innerHTML = `<strong>Color:</strong> ${cat.color}`;
         document.getElementById("cat-loc").innerHTML = `<strong>Place:</strong> ${cat.place}`;
