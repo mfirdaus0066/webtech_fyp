@@ -13,9 +13,9 @@ function closePopup()
 document.addEventListener("DOMContentLoaded", function () {
     const cats = {
 
-        1:{ name: "snowy", age: "2 years", breed: "british long hair", color: "white", place: "selangor", image: "../image/Sillycat.jpg", status: "Available" },
+        1:{ name: "snowy", age: "4 months", breed: "british Short hair", color: "Light brown & white", place: "Selangor", image: "../image/Snowy.jpg", status: "Available" },
 
-        2:{ name: "milo", age: "1 years", breed: "persian", color: "brown", place: "johor", image: "../image/Gato.jpg", status: "Adopted" },
+        2:{ name: "Milo", age: "2 years", breed: "American Shorthair", color: "Grey tabby", place: "Pahang", image: "../image/Gato.jpg", status: "Adopted" },
 
         3:{ name: "Ginger", age: "3 year", breed: "siamese", color: "orange", place: "penang", image: "../image/Ginger.jpg", status: "Available" },
 
