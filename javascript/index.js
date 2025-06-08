@@ -31,23 +31,26 @@ const catData = [
 {
     id : 1,
     Name: "Snowy",
-    Age: 2,
+    Age: "6 months",
     State: "Selangor",
-    img: "../html/Cat'sbio.html",
+    img: "../image/Snowy.jpg",
+    Status: "Available",
 },
 {
     id : 2,
     Name: "Milo",
-    Age: 1,
+    Age: "2 years",
     State: "Johor",
     img: "../image/Gato.jpg",
+    Status: "Adopted",
 },
 {
     id : 3,
     Name: "Ginger",
-    Age: 3,
+    Age: "3 years",
     State: "Penang",
     img: "../image/Ginger.jpg",
+    Status: "Available",
 },
 {
     id : 4,
@@ -55,61 +58,84 @@ const catData = [
     Age: "4 months",
     State: "Selangor",
     img: "../image/Luna.jpg",
+    Status: "Available",
 },
 {
     id : 5,
     Name: "Oreo",
-    Age: 2,
+    Age: "2 years",
     State: "Penang",
     img: "../image/Oreo.jpg",
+    Status: "Adopted",
 },
 {
     id : 6,
     Name: "Bella",
-    Age: 1.5,
+    Age: "1.5 years",
     State: "Johor",
     img: "../image/Bella.jpg",
+    Status: "Available",
 },
 {
     id : 7,
     Name: "Coco",
     Age: "5 months",
-    State: "Perak",
+    State: "Penang",
     img: "../image/Coco.jpg",
+    Status: "Available",
 },
 {
     id : 8,
     Name: "Simba",
-    Age: 1,
-    State: "Sarawak",
-    img: "../image/Simba.jpg",
+    Age: "1 year",
+    State: "Selangor",
+    img: "../image/Simba.JPG",
+    Status: "Adopted",
 },
 {
     id : 9,
     Name: "Munchkin",
     Age: "6 months",
-    State: "Kelantan",
+    State: "Johor",
     img: "../image/Munchkin.jpg",
+    Status: "Available",
 },
 {
     id : 10,
     Name: "Daisy",
-    Age: 2,
-    State: "Negeri Sembilan",
+    Age: "2 years",
+    State: "Selangor",
     img: "../image/Daisy.jpg",
+    Status: "Adopted",
 },
 {
     id : 11,
     Name: "Snowy the snower",
-    Age: 200,
+    Age: "2 years",
     State: "Selangor",
     img : "../image/Sillycat.jpg",
+    Status: "Available",
 },
 {
     id : 12,
     Name: "Milo and Ribena",
-    Age: 1,
+    Age: "1 year",
     State: "Johor",
-    img : "../image/Gato.jpg",
+    img : "../image/fai-img.jpeg",
+    Status: "Available",
 },
-]
+];
+
+//display all data
+window.addEventListener(`DOMContentLoaded`,()=>{
+    let displayData = catData.map(function(cat_items){
+        return `<div class="cat-info">
+                    <a href="../html/Cat'sbio.html?catId=1"><img src="../image/Snowy.jpg" alt="${cat_items.img}" width="200"></a>
+                    <div><strong>Name:</strong> ${cat_items.Name} </div>
+                    <div><strong>Age:</strong> ${cat_items.Age}</div>
+                    <div><strong>State:</strong> ${cat_items.State}</div>
+                    <div><strong>Status:</strong> ${cat_items.Status}</div>
+                </div>`;
+    });
+    console.log(displayData);
+});
