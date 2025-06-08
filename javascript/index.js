@@ -26,7 +26,7 @@ function prevPage()
     }
 }
 
-//filter by state
+//cats object for filter by state
 const catData = [
 {
     id : 1,
@@ -88,7 +88,7 @@ const catData = [
     id : 8,
     Name: "Simba",
     Age: "1 year",
-    State: "Selangor",
+    State: "Johor",
     img: "../image/Simba.JPG",
     Status: "Adopted",
 },
@@ -96,7 +96,7 @@ const catData = [
     id : 9,
     Name: "Munchkin",
     Age: "6 months",
-    State: "Johor",
+    State: "Selangor",
     img: "../image/Munchkin.jpg",
     Status: "Available",
 },
@@ -108,34 +108,43 @@ const catData = [
     img: "../image/Daisy.jpg",
     Status: "Adopted",
 },
-{
-    id : 11,
-    Name: "Snowy the snower",
-    Age: "2 years",
-    State: "Selangor",
-    img : "../image/Sillycat.jpg",
-    Status: "Available",
-},
-{
-    id : 12,
-    Name: "Milo and Ribena",
-    Age: "1 year",
-    State: "Johor",
-    img : "../image/fai-img.jpeg",
-    Status: "Available",
-},
 ];
 
+const productContainer = document.getElementById("cat-cards");
+
 //display all data
-window.addEventListener(`DOMContentLoaded`,()=>{
-    let displayData = catData.map(function(cat_items){
+
+
+const stateLinks = document.querySelectorAll("#state a");
+stateLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+        const state = e.target.dataset.id;
+        const catState = catData.filter(function(data){
+            if(data.State === state){
+                return data;
+            }
+        })
+        if(state === "All"){
+            displayCatData(catData);
+        }else{
+            displayCatData(catState);
+        }
+    });
+});
+
+//function display all data
+function displayCatData(cats){
+    let displayData = cats.map(function(cat_items){
         return `<div class="cat-info">
-                    <a href="../html/Cat'sbio.html?catId=1"><img src="../image/Snowy.jpg" alt="${cat_items.img}" width="200"></a>
+                    <a href="../html/Cat'sbio.html?catId=1"><img src="${cat_items.img}" alt="Cat image" width="200"></a>
                     <div><strong>Name:</strong> ${cat_items.Name} </div>
                     <div><strong>Age:</strong> ${cat_items.Age}</div>
                     <div><strong>State:</strong> ${cat_items.State}</div>
                     <div><strong>Status:</strong> ${cat_items.Status}</div>
-                </div>`;
+                </div>
+                `;
+    
     });
-    console.log(displayData);
-});
+    displayData = displayData.join("");
+    productContainer.innerHTML = displayData;
+}

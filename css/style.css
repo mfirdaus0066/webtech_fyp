@@ -193,6 +193,7 @@ main
     background-color: #B8F2E6;
     font-weight:bold;
     font-family:'Poetsen One';
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .page-btn:hover
@@ -323,3 +324,66 @@ main
         justify-content:space-around;
     }
 }
+#state {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+    width: 100%; 
+}
+
+#state li {
+    width: 80%;
+}
+
+#state a {
+    display: block; 
+    padding: 10px 15px; 
+    border: 3px solid #5E6472; 
+    border-radius: 8px; 
+    background-color: #B8F2E6; 
+    color: #dc6b61; 
+    font-family: 'Poetsen One'; 
+    font-size: 1.1em; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
+}
+
+#state a:hover {
+    background-color: #92d3c6;
+    color: #b86359; 
+    border-color: #5E6472; 
+    cursor: url(../image/cat.png), auto; 
+}
+
+#state a:active {
+    background-color: #50a896; 
+    color: #efaba5; 
+    border-color: #5E6472; 
+    cursor: url(../image/cat.png), auto; 
+}
+
+#search-sidebar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+#search-sidebar h2 {
+    font-family:'Poetsen One'; 
+    color:#dc6b61;
+    margin-bottom: 20px; 
+    padding-bottom: 15px; 
+    border-bottom: 2px solid #5E6472; 
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
