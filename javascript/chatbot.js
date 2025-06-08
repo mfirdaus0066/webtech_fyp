@@ -7,14 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const chatbotIcon = document.getElementById("chatbot-icon");
   const closeButton = document.getElementById("close-btn");
+  const chatClue = document.getElementById("chat-clue");
 
   chatbotIcon.addEventListener("click", function () {
     chatbotContainer.classList.remove("hidden");
-    chatbotIcon.style.display = "none"; 
+    chatClue.classList.add("hidden");
   });
 
   closeButton.addEventListener("click", function () {
     chatbotContainer.classList.add("hidden");
+    chatClue.classList.remove("hidden");
     chatbotIcon.style.display = "flex"; 
   });
 

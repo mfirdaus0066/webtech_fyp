@@ -76,6 +76,7 @@ button
     border:3px solid #5E6472;
     color:#dc6b61;
     font-size: 1.1em;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 button:hover
