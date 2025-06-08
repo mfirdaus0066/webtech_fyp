@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         8: { name: "Pudding", age: "2 months", breed: "Domestic Long Hair", color: "Grey and white", place: "Terengganu", image: "../image/Pudding.jpg", status: "Adopted" },
         9: { name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Pahang", image: "../image/Mochi.jpg", status: "Available" },
         10: { name: "Daisy", age: "2 years", breed: "Siberian", color: "White", place: "Terengganu", image: "../image/Daisy.jpg", status: "Available" }
+        11: { name: "Bastet", age: "2 years", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" }
     };
 
     const params = new URLSearchParams(window.location.search);
