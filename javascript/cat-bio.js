@@ -15,23 +15,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
         1:{ name: "snowy", age: "4 months", breed: "british Short hair", color: "Light brown & white", place: "Selangor", image: "../image/Snowy.jpg", status: "Available" },
 
-        2:{ name: "Milo", age: "2 years", breed: "American Shorthair", color: "Grey tabby", place: "Pahang", image: "../image/Gato.jpg", status: "Adopted" },
+        2:{ name: "Milo", age: "2 years", breed: "American Shorthair", color: "Grey Tabby", place: "Pahang", image: "../image/Gato.jpg", status: "Adopted" },
 
-        3:{ name: "Ginger", age: "3 year", breed: "siamese", color: "orange", place: "penang", image: "../image/Ginger.jpg", status: "Available" },
+        3:{ name: "Ginger", age: "3 years", breed: "Domestic Shorthair", color: "Orange Tabby", place: "Selangor", image: "../image/Ginger.jpg", status: "Available" },
 
-        4:{ name: "Lune", age: "4 months", breed: "ragdoll", color: "black", place: "Selangor", image: "../image/Luna.jpg", status: "Available" },
+        4:{ name: "Luna", age: "1 years", breed: "Domestic Shorthair", color: "black", place: "Selangor", image: "../image/Luna.jpg", status: "Available" },
 
-        5:{ name: "oreo", age: "2 years", breed: "burmese", color: "calico", place: "Penang", image: "../image/Oreo.jpg", status: "Adopted" },
+        5:{ name: "oreo", age: "1 years", breed: "Maine Coon", color: "Black Tortie with White", place: "Terengganu", image: "../image/Oreo.jpg", status: "Adopted" },
 
-        6:{ name: "Bella", age: "1.5 year", breed: "scottish fold", color: "white", place: "Johor", image: "../image/Bella.jpg", status: "Available" },
+        6:{ name: "Bella", age: "6 months", breed: "Turkish Angora", color: " Solid white", place: "Selangor", image: "../image/Bella.jpg", status: "Available" },
 
-        7:{ name: "coco", age: "5 months", breed: "sphynx", color: "brown", place: "Penang", image: "../image/Coco.jpg", status: "Available" },
+        7:{ name: "coco", age: "3 months", breed: "Domestic Long Hair", color: "Light brown", place: "Pahang", image: "../image/Coco.jpg", status: "Available" },
 
-        8:{ name: "Simba", age: "1 years", breed: "sphynx", color: "brown", place: "Johor", image: "../image/Simba.jpg", status: "Adopted" },
+        8:{ name: "Pudding", age: "2 months", breed: "Domestic Long Hair", color: "Grey and white", place: "Terengganu", image: "../image/Simba.jpg", status: "Adopted" },
 
-        9:{ name: "munchkin", age: "6 months", breed: "munchkin", color: "brown", place: "Selangor", image: "../image/Munchkin.jpg", status: "Available" },
+        9:{ name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Pahang", image: "../image/Munchkin.jpg", status: "Available" },
 
-        10:{ name: "Daisy", age: "2 years", breed: "sphynx", color: "brown", place: "Selangor", image: "../image/Daisy.jpg", status: "Available" }
+        10:{ name: "Daisy", age: "2 years", breed: "Siberian", color: "White", place: "Terengganu", image: "../image/Daisy.jpg", status: "Available" }
     }
 
     const params = new URLSearchParams(window.location.search);
