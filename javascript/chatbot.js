@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "X-Title": "Felines chatbot",
         },
         body: JSON.stringify({
-          model: "mistralai/mistral-7b-instruct",
+          model: "mistralai/mistral-7b-instruct:free",
           messages: [
             { role: "system", content: "You are a friendly cat adoption assistant that gives tips to the user." },
             { role: "user", content: userMessage }
