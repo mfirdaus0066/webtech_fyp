@@ -123,5 +123,15 @@
         "State": "Pahang",
         "img": "../image/Lulu.jpg",
         "Status": "Adopted"
+    },
+
+     {
+        "id": "15",
+        "Name": "Ali",
+        "Age": "1 year",
+        "State": "Pahang",
+        "img": "../image/Ali.jpg",
+        "Status": "Available"
     }
+
 ]

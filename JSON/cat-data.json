@@ -119,5 +119,16 @@
       "place": "Terengganu", 
       "image": "../image/Bastet.jpg", 
       "status": "Available" 
+    },
+
+    "12": 
+    { 
+      "name": "Maybank", 
+      "age": " year", 
+      "breed": "Bengal", 
+      "color": "Brown spotted", 
+      "place": "selangor", 
+      "image": "../image/Maybank.jpg", 
+      "status": "Available" 
     }
 }
