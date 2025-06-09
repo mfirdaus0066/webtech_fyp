@@ -20,6 +20,11 @@ function prevPage() {
     }
 }
 
+function warning()
+{
+    window.alert("do not disturb the cat!");
+}
+
 // Allowed states only
 const allowedStates = ["Selangor", "Pahang", "Terengganu"];
 
