@@ -1,3 +1,123 @@
 {
-    
+    "1": 
+    { 
+      "name": "Snowy",
+      "age": "4 months",
+      "breed": "British Shorthair", 
+      "color": "Light brown & white", 
+      "place": "Selangor", 
+      "image": "../image/Snowy.jpg", 
+      "status": "Available", 
+      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+    },
+
+    "2": 
+    { 
+      "name": "Milo", 
+      "age": "2 years", 
+      "breed": "American Shorthair", 
+      "color": "Grey Tabby", 
+      "place": "Pahang", 
+      "image": "../image/Gato.jpg", 
+      "status": "Adopted" 
+    },
+
+    "3": 
+    { 
+      "name": "Ginger", 
+      "age": "3 years", 
+      "breed": "Domestic Shorthair", 
+      "color": "Orange Tabby", 
+      "place": "Selangor", 
+      "image": "../image/Ginger.jpg", 
+      "status": "Available"
+    },
+
+    "4": 
+    { 
+      "name": "Luna", 
+      "age": "1 year", 
+      "breed": "Domestic Shorthair", 
+      "color": "Black", 
+      "place": "Selangor", 
+      "image": "../image/Luna.jpg", 
+      "status": "Available" 
+    },
+
+    "5": 
+    { 
+      "name": "Oreo", 
+      "age": "1 year", 
+      "breed": "Maine Coon", 
+      "color": "Black Tortie with White", 
+      "place": "Terengganu", 
+      "image": "../image/Oreo.jpg", 
+      "status": "Adopted" 
+    },
+
+    "6": 
+    { 
+      "name": "Bella", 
+      "age": "6 months", 
+      "breed": "Turkish Angora", 
+      "color": "Solid white", 
+      "place": "Selangor", 
+      "image": "../image/Bella.jpg", 
+      "status": "Available" 
+    },
+
+    "7": 
+    { 
+      "name": "Coco", 
+      "age": "3 months", 
+      "breed": "Domestic Long Hair", 
+      "color": "Light brown", 
+      "place": "Pahang", 
+      "image": "../image/Coco.jpg", 
+      "status": "Available" 
+    },
+
+    "8": 
+    { 
+      "name": "Pudding", 
+      "age": "2 months", 
+      "breed": "Domestic Long Hair", 
+      "color": "Grey and white", 
+      "place": "Terengganu", 
+      "image": "../image/Pudding.jpg", 
+      "status": "Adopted" 
+    },
+
+    "9": 
+    { 
+      "name": "Mochi", 
+      "age": "2 months", 
+      "breed": "Munchkin", 
+      "color": "Orange and white", 
+      "place": "Pahang", 
+      "image": "../image/Mochi.jpg",
+       "status": "Available"
+    },
+
+    "10": 
+    { 
+      "name": "Daisy", 
+      "age": "2 years", 
+      "breed": "Siberian", 
+      "color": "White", 
+      "place": "Terengganu", 
+      "image": "../image/Daisy.jpg", 
+      "status": "Available" 
+    },
+
+    "11": 
+    { 
+      "name": "Bastet", 
+      "age": "2 years", 
+      "breed": "Bengal", 
+      "color": "Brown spotted", 
+      "place": "Terengganu", 
+      "image": "../image/Bastet.jpg", 
+      "status": "Available" 
+    }
 }
