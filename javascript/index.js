@@ -120,6 +120,14 @@ const catData = [
         img: "../image/Maybank.jpg",
         Status: "Available",
     },
+    {
+        id: 13,
+        Name: "Ziggy",
+        Age: "3 years",
+        State: "Pahang",
+        img: "../image/Ziggy.jpg",
+        Status: "Available",
+    },
 ];
 
 // Load DOM elements
