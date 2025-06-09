@@ -124,11 +124,48 @@
     "12": 
     { 
       "name": "Maybank", 
-      "age": " year", 
-      "breed": "Bengal", 
-      "color": "Brown spotted", 
+      "age": " 1 year", 
+      "breed": "Longhaired Abyssinian cat", 
+      "color": "Ruddy Ticked", 
       "place": "selangor", 
       "image": "../image/Maybank.jpg", 
       "status": "Available" 
+    },
+
+    "13": 
+    { 
+      "name": "Ziggy", 
+      "age": " 3 years", 
+      "breed": "Cornish Rex", 
+      "color": "Red and White Bicolor", 
+      "place": "Pahang", 
+      "image": "../image/Ziggy.jpg", 
+      "status": "Available" 
+    },
+
+    "14": 
+    { 
+      "name": "Lulu", 
+      "age": " 3 years", 
+      "breed": "Foreign Longhair", 
+      "color": "White with Cream Point", 
+      "place": "Pahang", 
+      "image": "../image/Lulu.jpg", 
+      "status": "Adopted" 
+    },
+
+    "15": 
+    { 
+      "name": "Ali", 
+      "age": " 1 year", 
+      "breed": "Savannah", 
+      "color": "Brown Spotted Tabby", 
+      "place": "Pahang", 
+      "image": "../image/Ali.jpg", 
+      "status": "Available" 
     }
+
+
+
+    
 }
