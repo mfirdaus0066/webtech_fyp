@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   async function getBotResponse(userMessage) {
-    const apiKey = "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";
+    const apiKey = "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";
     const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
     try {
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "X-Title": "Felines chatbot",
         },
         body: JSON.stringify({
-          model: "mistralai/mistral-7b-instruct:free",
+          model: "google/gemma-3n-e4b-it:free",
           messages: [
             { role: "system", content: "You are a friendly cat adoption assistant that gives tips to the user." },
             { role: "user", content: userMessage }
