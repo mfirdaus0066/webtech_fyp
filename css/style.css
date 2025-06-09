@@ -80,6 +80,7 @@ a
 {
     background-color:#7dc6b7;
     cursor:url(../image/cat.png), auto;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
 }
 
 .main-nav a:active
@@ -97,6 +98,7 @@ a
 #icon
 {
     display: flex; 
+    
 }
 
 #icon:hover
@@ -110,6 +112,7 @@ a
     height:75px;
     width:75px;
     margin-top:10px;
+    
 }
 
 #small-logo:hover
@@ -137,7 +140,7 @@ main
     margin-right: 20px;
     float:left;
     flex-direction: column;
-    text-align: center;
+    align-items:center;
     background-color:#AED9E0;
     color:#dc6b61;
     font-family:'Poetsen One';
@@ -151,13 +154,6 @@ main
     top:450px;
     left:-25px;
     right: 0px;
-}
-
-#state
-{
-    list-style-type: none;
-    text-align:center;
-    padding: 0px;
 }
 
 #cat-list
@@ -202,6 +198,7 @@ main
     border: 2px solid #5E6472;
     background-color:#92d3c6;
     cursor:url(../image/cat.png), auto;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
 }
 
 .page-btn:active
@@ -225,6 +222,7 @@ main
 
 #cat-cards:hover a
 {
+   
     cursor: url(../image/cat.png), auto;
 }
 
@@ -241,6 +239,21 @@ main
     color:#dc6b61;
     font-family:'Poetsen One';
     background-color:#7EB2DD;
+}
+
+.cat-info:hover
+{
+    background-color:#77a8cf;
+    color:#b86359;
+    cursor: url(../image/cat.png), auto;
+}
+
+.cat-info:active
+{
+    background-color:#6088a8;
+    color:#efaba5;
+    border: 3px solid #5E6472;
+    cursor: url(../image/cat.png), auto;
 }
 
 .cat-image
@@ -266,6 +279,71 @@ main
     font-family: 'Poetsen One';
     color:#dc6b61;
     opacity: 50%;
+}
+
+#state 
+{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+    width: 100%; 
+}
+
+#state li 
+{
+    width: 80%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#state a 
+{
+    display: flex; 
+    padding-inline:10%; 
+    padding-block:10%;
+    border: 3px solid #5E6472; 
+    border-radius: 8px; 
+    background-color: #B8F2E6; 
+    color: #dc6b61; 
+    font-family: 'Poetsen One'; 
+    font-size: 1.0em; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
+    overflow:hidden;
+}
+
+#state a:hover {
+    background-color: #92d3c6;
+    color: #b86359; 
+    border-color: #5E6472; 
+    cursor: url(../image/cat.png), auto; 
+}
+
+#state a:active {
+    background-color: #50a896; 
+    color: #efaba5; 
+    border-color: #5E6472; 
+    cursor: url(../image/cat.png), auto; 
+}
+
+#search-sidebar h2 {
+    display:flex;
+    flex-direction:center;
+    align-items:center;
+    font-family:'Poetsen One'; 
+    color:#dc6b61;
+    margin-bottom: 20px; 
+    padding-bottom: 15px; 
+    border-bottom: 2px solid #5E6472; 
+    width: 80%; 
+    padding-inline: auto;
+    text-align:center;
 }
 
 @media screen and (max-width: 1920px)
@@ -323,67 +401,15 @@ main
         display:flex;
         justify-content:space-around;
     }
-}
-#state {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-    flex-direction: column; 
-    gap: 10px; 
-    align-items: center; 
-    width: 100%; 
-}
 
-#state li {
-    width: 80%;
-}
+    #state a 
+    {
+        font-size: 0.8em; 
+    }
 
-#state a {
-    display: block; 
-    padding: 10px 15px; 
-    border: 3px solid #5E6472; 
-    border-radius: 8px; 
-    background-color: #B8F2E6; 
-    color: #dc6b61; 
-    font-family: 'Poetsen One'; 
-    font-size: 1.1em; 
-    text-align: center; 
-    text-decoration: none; 
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
-}
+    #search-sidebar h2
+    {
+        font-size:1.3em;
+    }
 
-#state a:hover {
-    background-color: #92d3c6;
-    color: #b86359; 
-    border-color: #5E6472; 
-    cursor: url(../image/cat.png), auto; 
 }
-
-#state a:active {
-    background-color: #50a896; 
-    color: #efaba5; 
-    border-color: #5E6472; 
-    cursor: url(../image/cat.png), auto; 
-}
-
-#search-sidebar {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    padding-top: 20px; 
-    padding-bottom: 20px; 
-    box-sizing: border-box; 
-}
-
-#search-sidebar h2 {
-    font-family:'Poetsen One'; 
-    color:#dc6b61;
-    margin-bottom: 20px; 
-    padding-bottom: 15px; 
-    border-bottom: 2px solid #5E6472; 
-    width: 80%; 
-    margin-left: auto; 
-    margin-right: auto;
-}
-
