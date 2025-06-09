@@ -1,4 +1,4 @@
-{
+[
     {
         "id": "1",
         "Name": "Snowy",
@@ -124,4 +124,4 @@
         "img": "../image/Lulu.jpg",
         "Status": "Adopted"
     }
-}
+]
