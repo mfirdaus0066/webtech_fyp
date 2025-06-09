@@ -9,32 +9,25 @@ function closePopup() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    const cats = {
-        1: { name: "Snowy", age: "4 months", breed: "British Shorthair", color: "Light brown & white", place: "Selangor", image: "../image/Snowy.jpg", status: "Available", address: "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" },
-        2: { name: "Milo", age: "2 years", breed: "American Shorthair", color: "Grey Tabby", place: "Pahang", image: "../image/Gato.jpg", status: "Adopted" },
-        3: { name: "Ginger", age: "3 years", breed: "Domestic Shorthair", color: "Orange Tabby", place: "Selangor", image: "../image/Ginger.jpg", status: "Available" },
-        4: { name: "Luna", age: "1 year", breed: "Domestic Shorthair", color: "Black", place: "Selangor", image: "../image/Luna.jpg", status: "Available" },
-        5: { name: "Oreo", age: "1 year", breed: "Maine Coon", color: "Black Tortie with White", place: "Terengganu", image: "../image/Oreo.jpg", status: "Adopted" },
-        6: { name: "Bella", age: "6 months", breed: "Turkish Angora", color: "Solid white", place: "Selangor", image: "../image/Bella.jpg", status: "Available" },
-        7: { name: "Coco", age: "3 months", breed: "Domestic Long Hair", color: "Light brown", place: "Selangor", image: "../image/Coco.jpg", status: "Available" },
-        8: { name: "Pudding", age: "2 months", breed: "Domestic Long Hair", color: "Grey and white", place: "Terengganu", image: "../image/Pudding.jpg", status: "Adopted" },
-        9: { name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Selangor", image: "../image/Mochi.jpg", status: "Available" },
-        10: { name: "Daisy", age: "2 years", breed: "Siberian", color: "White", place: "Terengganu", image: "../image/Daisy.jpg", status: "Available" },
-        11: { name: "Bastet", age: "2 years", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" },
-        12: { name: "Maybank", age: "1 year", breed: "Longhaired Abyssinian", color: "Ruddy ticked", place: "Selangor", image: "../image/Maybank.jpg", status: "Available" },
-        13: { name: "Ziggy", age: "3 years", breed: "Cornex Rex", color: "Black and White", place: "Pahang", image: "../image/Ziggy.jpg", status: "Available" },
-        14: { name: "Lulu", age: "3 years", breed: "Foreign Longhair", color:"Shiny solid black", place: "Pahang", image: "../image/Lulu.jpg", status: "Adopted" },
-    };
+    
+    fetch('../JSON/cat-data.json')
+        .then(response => response.json())
+        .then(data => 
+            {
+                const cats = data;
+            
+            
 
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("catId");
+                const params = new URLSearchParams(window.location.search);
+                const id = params.get("catId");
 
-    if (id && cats[id]) {
-        showCatBio(id);
-        moreCats(id);
-    } else {
-        moreCats(null);
-    }
+                if (id && cats[id]) {
+                    showCatBio(id, cats);
+                    moreCats(id, cats);
+                } else {
+                    moreCats(null);
+                }
+           
 
     function showCatBio(catId) {
         const cat = cats[catId];
@@ -104,4 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
             suggestion.appendChild(card);
         });
     }
+
+     })
 });
