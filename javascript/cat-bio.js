@@ -20,10 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
         8: { name: "Pudding", age: "2 months", breed: "Domestic Long Hair", color: "Grey and white", place: "Terengganu", image: "../image/Pudding.jpg", status: "Adopted" },
         9: { name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Selangor", image: "../image/Mochi.jpg", status: "Available" },
         10: { name: "Daisy", age: "2 years", breed: "Siberian", color: "White", place: "Terengganu", image: "../image/Daisy.jpg", status: "Available" },
-        11: { name: "Bastet", age: "2 years", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" },
+        11: { name: "Bastet", age: "6 months", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" },
         12: { name: "Maybank", age: "1 year", breed: "Longhaired Abyssinian", color: "Ruddy ticked", place: "Selangor", image: "../image/Maybank.jpg", status: "Available" },
         13: { name: "Ziggy", age: "3 years", breed: "Cornish Rex", color: "Black and White", place: "Pahang", image: "../image/Ziggy.jpg", status: "Available" },
         14: { name: "Lulu", age: "3 years", breed: "Foreign Longhair", color:"Shiny solid black", place: "Pahang", image: "../image/Lulu.jpg", status: "Adopted" },
+        15: { name: "Ali", age: "1 year", breed: "Savannah", color:"Brown Spotted Tabby", place: "Pahang", image: "../image/Ali.jpg", status: "Available" },
     };
 
     const params = new URLSearchParams(window.location.search);

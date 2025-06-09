@@ -107,7 +107,7 @@ const catData = [
     {
         id: 11,
         Name: "Bastet",
-        Age: "2 years",
+        Age: "6 months",
         State: "Terengganu",
         img: "../image/Bastet.jpg",
         Status: "Available",
@@ -135,6 +135,14 @@ const catData = [
         State: "Pahang",
         img: "../image/Lulu.jpg",
         Status: "Adopted",
+    },
+    {
+        id: 15,
+        Name: "Ali",
+        Age: "1 year",
+        State: "Pahang",
+        img: "../image/Ali.jpg",
+        Status: "Available",
     },
 ];
 
