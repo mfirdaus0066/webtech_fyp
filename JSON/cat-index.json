@@ -1,0 +1,127 @@
+[
+    {
+        "id": "1",
+        "Name": "Snowy",
+        "Age": "6 months",
+        "State": "Selangor",
+        "img": "../image/Snowy.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "2",
+        "Name": "Milo",
+        "Age": "2 years",
+        "State": "Pahang",
+        "img": "../image/Gato.jpg",
+        "Status": "Adopted"
+    },
+
+    {
+        "id": "3",
+        "Name": "Ginger",
+        "Age": "3 years",
+        "State": "Terengganu",
+        "img": "../image/Ginger.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "4",
+        "Name": "Luna",
+        "Age": "4 months",
+        "State": "Selangor",
+        "img": "../image/Luna.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "5",
+        "Name": "Oreo",
+        "Age": "2 years",
+        "State": "Terengganu",
+        "img": "../image/Oreo.jpg",
+        "Status": "Adopted"
+    },
+
+    {
+        "id": "6",
+        "Name": "Bella",
+        "Age": "1.5 years",
+        "State": "Pahang", 
+        "img": "../image/Bella.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "7",
+        "Name": "Coco",
+        "Age": "5 months",
+        "State": "Selangor",
+        "img": "../image/Coco.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "8",
+        "Name": "Pudding",
+        "Age": "2 months",
+        "State": "Terengganu",
+        "img": "../image/Pudding.JPG",
+        "Status": "Adopted"
+    },
+
+    {
+        "id": "9",
+        "Name": "Mochi",
+        "Age": "6 months",
+        "State": "Selangor",
+        "img": "../image/Mochi.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "10",
+        "Name": "Daisy",
+        "Age": "2 years",
+        "State": "Terengganu",
+        "img": "../image/Daisy.jpg",
+        "Status": "Adopted"
+    },
+
+    {
+        "id": "11",
+        "Name": "Bastet",
+        "Age": "2 years",
+        "State": "Terengganu",
+        "img": "../image/Bastet.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "12",
+        "Name": "Maybank",
+        "Age": "1 year",
+        "State": "Selangor",
+        "img": "../image/Maybank.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "13",
+        "Name": "Ziggy",
+        "Age": "3 years",
+        "State": "Pahang",
+        "img": "../image/Ziggy.jpg",
+        "Status": "Available"
+    },
+
+    {
+        "id": "14",
+        "Name": "Lulu",
+        "Age": "3 years",
+        "State": "Pahang",
+        "img": "../image/Lulu.jpg",
+        "Status": "Adopted"
+    }
+]
