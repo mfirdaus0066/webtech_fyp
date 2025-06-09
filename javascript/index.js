@@ -44,12 +44,10 @@ fetch('../JSON/cat-index.json')
                     e.preventDefault(); // prevent page reload
                     const state = e.target.dataset.id;
 
-                    if (state === "All") {
-                        displayCatData(catData);
-                    } else {
+                    
                         const filtered = catData.filter(cat => cat.State === state);
                         displayCatData(filtered);
-                    }
+                    
                 });
             });
 

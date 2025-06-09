@@ -19,7 +19,8 @@
       "color": "Grey Tabby", 
       "place": "Pahang", 
       "image": "../image/Gato.jpg", 
-      "status": "Adopted" 
+      "status": "Adopted",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
     },
 
     "3": 
@@ -30,7 +31,8 @@
       "color": "Orange Tabby", 
       "place": "Selangor", 
       "image": "../image/Ginger.jpg", 
-      "status": "Available"
+      "status": "Available", 
+      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
     },
 
     "4": 
@@ -41,7 +43,8 @@
       "color": "Black", 
       "place": "Selangor", 
       "image": "../image/Luna.jpg", 
-      "status": "Available" 
+      "status": "Available", 
+      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
     },
 
     "5": 
@@ -52,7 +55,8 @@
       "color": "Black Tortie with White", 
       "place": "Terengganu", 
       "image": "../image/Oreo.jpg", 
-      "status": "Adopted" 
+      "status": "Adopted",
+      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
     },
 
     "6": 
@@ -63,7 +67,8 @@
       "color": "Solid white", 
       "place": "Selangor", 
       "image": "../image/Bella.jpg", 
-      "status": "Available" 
+      "status": "Available", 
+      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
     },
 
     "7": 
@@ -74,7 +79,8 @@
       "color": "Light brown", 
       "place": "Pahang", 
       "image": "../image/Coco.jpg", 
-      "status": "Available" 
+      "status": "Available",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
     },
 
     "8": 
@@ -85,7 +91,8 @@
       "color": "Grey and white", 
       "place": "Terengganu", 
       "image": "../image/Pudding.jpg", 
-      "status": "Adopted" 
+      "status": "Adopted",
+      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8"
     },
 
     "9": 
@@ -96,7 +103,8 @@
       "color": "Orange and white", 
       "place": "Pahang", 
       "image": "../image/Mochi.jpg",
-       "status": "Available"
+       "status": "Available",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
     },
 
     "10": 
@@ -107,7 +115,8 @@
       "color": "White", 
       "place": "Terengganu", 
       "image": "../image/Daisy.jpg", 
-      "status": "Available" 
+      "status": "Available",
+      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
     },
 
     "11": 
@@ -118,7 +127,8 @@
       "color": "Brown spotted", 
       "place": "Terengganu", 
       "image": "../image/Bastet.jpg", 
-      "status": "Available" 
+      "status": "Available",
+      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
     },
 
     "12": 
@@ -129,7 +139,8 @@
       "color": "Ruddy Ticked", 
       "place": "selangor", 
       "image": "../image/Maybank.jpg", 
-      "status": "Available" 
+      "status": "Available", 
+      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
     },
 
     "13": 
@@ -140,7 +151,8 @@
       "color": "Red and White Bicolor", 
       "place": "Pahang", 
       "image": "../image/Ziggy.jpg", 
-      "status": "Available" 
+      "status": "Available",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7"  
     },
 
     "14": 
@@ -151,7 +163,8 @@
       "color": "White with Cream Point", 
       "place": "Pahang", 
       "image": "../image/Lulu.jpg", 
-      "status": "Adopted" 
+      "status": "Adopted",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
     },
 
     "15": 
@@ -162,7 +175,8 @@
       "color": "Brown Spotted Tabby", 
       "place": "Pahang", 
       "image": "../image/Ali.jpg", 
-      "status": "Available" 
+      "status": "Available",
+      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7"  
     }
     
 }
