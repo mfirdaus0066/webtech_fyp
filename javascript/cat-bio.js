@@ -16,11 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
         4: { name: "Luna", age: "1 year", breed: "Domestic Shorthair", color: "Black", place: "Selangor", image: "../image/Luna.jpg", status: "Available" },
         5: { name: "Oreo", age: "1 year", breed: "Maine Coon", color: "Black Tortie with White", place: "Terengganu", image: "../image/Oreo.jpg", status: "Adopted" },
         6: { name: "Bella", age: "6 months", breed: "Turkish Angora", color: "Solid white", place: "Selangor", image: "../image/Bella.jpg", status: "Available" },
-        7: { name: "Coco", age: "3 months", breed: "Domestic Long Hair", color: "Light brown", place: "Pahang", image: "../image/Coco.jpg", status: "Available" },
+        7: { name: "Coco", age: "3 months", breed: "Domestic Long Hair", color: "Light brown", place: "Selangor", image: "../image/Coco.jpg", status: "Available" },
         8: { name: "Pudding", age: "2 months", breed: "Domestic Long Hair", color: "Grey and white", place: "Terengganu", image: "../image/Pudding.jpg", status: "Adopted" },
-        9: { name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Pahang", image: "../image/Mochi.jpg", status: "Available" },
+        9: { name: "Mochi", age: "2 months", breed: "Munchkin", color: "Orange and white", place: "Selangor", image: "../image/Mochi.jpg", status: "Available" },
         10: { name: "Daisy", age: "2 years", breed: "Siberian", color: "White", place: "Terengganu", image: "../image/Daisy.jpg", status: "Available" },
-        11: { name: "Bastet", age: "2 years", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" }
+        11: { name: "Bastet", age: "2 years", breed: "Bengal", color: "Brown spotted", place: "Terengganu", image: "../image/Bastet.jpg", status: "Available" },
+        12: { name: "Maybank", age: "1 year", breed: "Longhaired Abyssinian", color: "Ruddy ticked", place: "Selangor", image: "../image/Maybank.jpg", status: "Available" },
+        13: { name: "Ziggy", age: "3 years", breed: "Cornex Rex", color: "Black and White", place: "Pahang", image: "../image/Ziggy.jpg", status: "Available" },
+        14: { name: "Lulu", age: "3 years", breed: "Foreign Longhair", color:"Shiny solid black", place: "Pahang", image: "../image/Lulu.jpg", status: "Adopted" },
     };
 
     const params = new URLSearchParams(window.location.search);
