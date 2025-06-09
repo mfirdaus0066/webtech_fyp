@@ -53,7 +53,7 @@ fetch('../JSON/cat-index.json')
                 });
             });
 
-            displayCatData(catData);
+            
 
             // Display cat cards
             function displayCatData(cats) {
