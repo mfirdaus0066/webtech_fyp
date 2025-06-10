@@ -52,10 +52,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     actionBtnSection.appendChild(existingPopup);
 
                     // Adopt button
+                    if( cat.status === "Available")
+                    {
                     const adoptButton = document.createElement("button");
                     adoptButton.textContent = "Adopt Now";
                     adoptButton.onclick = openPopup;
                     actionBtnSection.insertBefore(adoptButton, existingOverlay);
+                    }
+
+                    else if( cat.status === "Adopted")
+                    {
+                        const adoptButton = document.createElement("button");
+                    adoptButton.textContent = "Adopt Now";
+                    adoptButton.onclick = function (){ window.alert("this cat has already been adopted")};
+                    actionBtnSection.insertBefore(adoptButton, existingOverlay);
+                    }
 
                     // Location button (if available)
                     if (cat.address) {

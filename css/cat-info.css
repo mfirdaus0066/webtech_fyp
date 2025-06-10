@@ -242,6 +242,11 @@ h3
     border: 3px solid #5E6472;
 }
 
+.cat-image:hover
+{
+    cursor: url(../image/cat.png), auto;
+}
+
 .more-cat
 {
     width:175px;
