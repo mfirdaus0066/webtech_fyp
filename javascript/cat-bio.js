@@ -6,6 +6,14 @@ function openPopup() {
 function closePopup() {
     document.getElementById("overlay").classList.add("hidden");
     document.getElementById("popup").classList.add("hidden");
+
+    const userInput = document.getElementsByClassName("user-input");
+
+    for(let i = 0; i< userInput.length; i++)
+    {
+        userInput[i].value = "";
+    }
+    
 }
 
 document.addEventListener("DOMContentLoaded", function () {
