@@ -161,6 +161,11 @@ main
     right: 0px;
 }
 
+#search-icon:hover
+{
+    cursor: url(../image/cat.png), auto;
+}
+
 #cat-list
 {
     display: flex;
