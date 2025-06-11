@@ -32,21 +32,21 @@ function openMapPopup(lat, lng, catName) {
 
     const mapOptions = {
         center: { lat: lat, lng: lng }, // Center map on cat's coordinates
-        zoom: 15, // Adjust zoom level as needed
+        zoom: 20, // Adjust zoom level as needed
     };
 
     const mapDiv = document.getElementById("map");
     // Ensure the map container is visible before initializing the map
-    // (Google Maps API can behave oddly if the div is hidden when initialized)
-    mapDiv.style.visibility = 'visible'; // Or ensure it's not hidden by the 'hidden' class
+   
+    mapDiv.style.visibility = 'visible'; 
 
-    // Initialize the map if it hasn't been initialized or if the div is cleared
-    if (!currentMap || !mapDiv.querySelector('.gm-style')) { // Check if map is already rendered in the div
+    // Initialize the map if it has not been initialized
+    if (!currentMap || !mapDiv.querySelector('.gm-style')) { // Check if map is already rendered in the div if not it will render itself
         currentMap = new google.maps.Map(mapDiv, mapOptions);
     } else {
         // If map already exists, just recenter it
         currentMap.setCenter({ lat: lat, lng: lng });
-        currentMap.setZoom(15);
+        currentMap.setZoom(20);
     }
 
     // Clear previous marker if any
@@ -54,7 +54,6 @@ function openMapPopup(lat, lng, catName) {
         currentMarker.setMap(null);
     }
 
-    // Add a marker for the cat's location
     currentMarker = new google.maps.Marker({
         position: { lat: lat, lng: lng },
         map: currentMap,
@@ -63,8 +62,6 @@ function openMapPopup(lat, lng, catName) {
     });
     console.log(`Map opened for ${catName} at Lat: ${lat}, Lng: ${lng}`);
 
-    // Adjust map center after popup is fully rendered, if necessary
-    // This can help with map rendering issues when a popup is animated
     setTimeout(() => {
         if (currentMap) {
             currentMap.setCenter({ lat: lat, lng: lng });
@@ -76,9 +73,6 @@ function openMapPopup(lat, lng, catName) {
 function closeMapPopup() {
     document.getElementById("mapOverlay").classList.add("hidden");
     document.getElementById("mapPopup").classList.add("hidden");
-    // Optionally clear map content to prevent rendering issues if reusing popup
-    // document.getElementById("map").innerHTML = ''; // This will destroy the map instance
-    // currentMap = null; // Reset map instance
 }
 
 
@@ -124,11 +118,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
                 // Clear content but re-append the hidden popups
-                actionBtnSection.innerHTML = ''; // Clear existing buttons
-                actionBtnSection.appendChild(existingOverlay); // Re-append email overlay
-                actionBtnSection.appendChild(existingPopup);   // Re-append email popup
-                actionBtnSection.appendChild(mapOverlay);      // Re-append map overlay
-                actionBtnSection.appendChild(mapPopup);        // Re-append map popup
+                actionBtnSection.innerHTML = ''; 
+                actionBtnSection.appendChild(existingOverlay); 
+                actionBtnSection.appendChild(existingPopup);   
+                actionBtnSection.appendChild(mapOverlay);      
+                actionBtnSection.appendChild(mapPopup);        
 
 
                 // Adopt button
