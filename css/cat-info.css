@@ -380,3 +380,7 @@ h3
         height: 60vw; /* Keep aspect ratio */
     }
 }
+.hidden
+{
+    display:none;
+}
