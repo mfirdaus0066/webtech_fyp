@@ -59,6 +59,7 @@ function openMapPopup(lat, lng, catName) {
         position: { lat: lat, lng: lng },
         map: currentMap,
         title: catName,
+        zoom: 20,
     });
     console.log(`Map opened for ${catName} at Lat: ${lat}, Lng: ${lng}`);
 
@@ -67,6 +68,7 @@ function openMapPopup(lat, lng, catName) {
     setTimeout(() => {
         if (currentMap) {
             currentMap.setCenter({ lat: lat, lng: lng });
+            currentMap.setZoom(20);
         }
     }, 100);
 }

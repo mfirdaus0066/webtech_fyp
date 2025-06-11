@@ -8,8 +8,8 @@
       "place": "Selangor", 
       "image": "../image/Snowy.jpg", 
       "status": "Available", 
-      "lat": 3.1517240848764403,
-      "lng": 101.59468203876085 
+      "lat": 3.1394553126697233, 
+      "lng":  101.52611712196993
     },
 
     "2": 
@@ -21,8 +21,8 @@
       "place": "Pahang", 
       "image": "../image/Gato.jpg", 
       "status": "Adopted",
-      "lat":3.8867657202943353, 
-      "lng": 103.34302753297357 
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425
     },
 
     "3": 
@@ -34,8 +34,8 @@
       "place": "Terengganu", 
       "image": "../image/Ginger.jpg", 
       "status": "Available", 
-      "lat": 4.734349670920167, 
-      "lng": 103.37904797871771
+      "lat": 5.372938876060516,  
+      "lng": 103.08498222944539
     },
 
     "4": 
@@ -47,8 +47,8 @@
       "place": "Selangor", 
       "image": "../image/Luna.jpg", 
       "status": "Available", 
-      "lat": 3.1517240848764403,
-      "lng": 101.59468203876085 
+      "lat": 3.1394553126697233, 
+      "lng":  101.52611712196993 
     },
 
     "5": 
@@ -60,8 +60,8 @@
       "place": "Terengganu", 
       "image": "../image/Oreo.jpg", 
       "status": "Adopted",
-       "lat": 4.734349670920167, 
-      "lng": 103.37904797871771 
+       "lat": 5.372938876060516,  
+      "lng": 103.08498222944539 
     },
 
     "6": 
@@ -73,8 +73,8 @@
       "place": "Pahang", 
       "image": "../image/Bella.jpg", 
       "status": "Available", 
-      "lat":3.1517240848764403, 
-      "lng": 103.34302753297357
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425
     },
 
     "7": 
@@ -86,8 +86,8 @@
       "place": "Selangor", 
       "image": "../image/Coco.jpg", 
       "status": "Available",
-      "lat":3.8867657202943353, 
-      "lng": 101.59468203876085
+      "lat":3.1394553126697233, 
+      "lng":  101.52611712196993
     },
 
     "8": 
@@ -99,8 +99,8 @@
       "place": "Terengganu", 
       "image": "../image/Pudding.jpg", 
       "status": "Adopted",
-       "lat": 4.734349670920167, 
-      "lng": 103.37904797871771
+       "lat": 5.372938876060516,  
+      "lng": 103.08498222944539
     },
 
     "9": 
@@ -112,8 +112,8 @@
       "place": "Pahang", 
       "image": "../image/Mochi.jpg",
       "status": "Available",
-      "lat":3.8867657202943353, 
-      "lng": 103.34302753297357 
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425 
     },
 
     "10": 
@@ -125,8 +125,8 @@
       "place": "Terengganu", 
       "image": "../image/Daisy.jpg", 
       "status": "Available",
-       "lat": 4.734349670920167, 
-      "lng": 103.37904797871771
+       "lat": 5.372938876060516,  
+      "lng": 103.08498222944539
     },
 
     "11": 
@@ -138,8 +138,8 @@
       "place": "Terengganu", 
       "image": "../image/Bastet.jpg", 
       "status": "Available",
-       "lat": 4.734349670920167, 
-      "lng": 103.37904797871771
+       "lat": 5.372938876060516,  
+      "lng": 103.08498222944539
     },
 
     "12": 
@@ -151,8 +151,8 @@
       "place": "selangor", 
       "image": "../image/Maybank.jpg", 
       "status": "Available", 
-      "lat": 3.1517240848764403,
-      "lng": 101.59468203876085  
+      "lat": 3.1394553126697233, 
+      "lng":  101.52611712196993  
     },
 
     "13": 
@@ -164,8 +164,8 @@
       "place": "Pahang", 
       "image": "../image/Ziggy.jpg", 
       "status": "Available",
-      "lat":3.8867657202943353, 
-      "lng": 103.34302753297357 
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425 
     },
 
     "14": 
@@ -177,8 +177,8 @@
       "place": "Pahang", 
       "image": "../image/Lulu.jpg", 
       "status": "Adopted",
-      "lat":3.8867657202943353, 
-      "lng": 103.34302753297357
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425
     },
 
     "15": 
@@ -190,8 +190,8 @@
       "place": "Pahang", 
       "image": "../image/Ali.jpg", 
       "status": "Available",
-      "lat":3.8867657202943353, 
-      "lng": 103.34302753297357
+      "lat":3.514713070030313,
+      "lng":  103.38526102735425
     }
     
 }
