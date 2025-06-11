@@ -96,7 +96,7 @@ button:active
 
 .hidden
 {
-    display:none;
+    display: none !important;
 }
 
 #overlay
@@ -379,8 +379,4 @@ h3
         width: 90vw; /* Make map responsive on smaller screens */
         height: 60vw; /* Keep aspect ratio */
     }
-}
-.hidden
-{
-    display:none;
 }
