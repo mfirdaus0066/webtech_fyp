@@ -8,7 +8,8 @@
       "place": "Selangor", 
       "image": "../image/Snowy.jpg", 
       "status": "Available", 
-      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+      "lat": 3.1517240848764403,
+      "lng": 101.59468203876085 
     },
 
     "2": 
@@ -20,7 +21,8 @@
       "place": "Pahang", 
       "image": "../image/Gato.jpg", 
       "status": "Adopted",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
+      "lat":3.8867657202943353, 
+      "lng": 103.34302753297357 
     },
 
     "3": 
@@ -29,10 +31,11 @@
       "age": "3 years", 
       "breed": "Domestic Shorthair", 
       "color": "Orange Tabby", 
-      "place": "Selangor", 
+      "place": "Terengganu", 
       "image": "../image/Ginger.jpg", 
       "status": "Available", 
-      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+      "lat": 4.734349670920167, 
+      "lng": 103.37904797871771
     },
 
     "4": 
@@ -44,7 +47,8 @@
       "place": "Selangor", 
       "image": "../image/Luna.jpg", 
       "status": "Available", 
-      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+      "lat": 3.1517240848764403,
+      "lng": 101.59468203876085 
     },
 
     "5": 
@@ -56,7 +60,8 @@
       "place": "Terengganu", 
       "image": "../image/Oreo.jpg", 
       "status": "Adopted",
-      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
+       "lat": 4.734349670920167, 
+      "lng": 103.37904797871771 
     },
 
     "6": 
@@ -65,10 +70,11 @@
       "age": "6 months", 
       "breed": "Turkish Angora", 
       "color": "Solid white", 
-      "place": "Selangor", 
+      "place": "Pahang", 
       "image": "../image/Bella.jpg", 
       "status": "Available", 
-      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+      "lat":3.1517240848764403, 
+      "lng": 103.34302753297357
     },
 
     "7": 
@@ -77,10 +83,11 @@
       "age": "3 months", 
       "breed": "Domestic Long Hair", 
       "color": "Light brown", 
-      "place": "Pahang", 
+      "place": "Selangor", 
       "image": "../image/Coco.jpg", 
       "status": "Available",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
+      "lat":3.8867657202943353, 
+      "lng": 101.59468203876085
     },
 
     "8": 
@@ -92,7 +99,8 @@
       "place": "Terengganu", 
       "image": "../image/Pudding.jpg", 
       "status": "Adopted",
-      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8"
+       "lat": 4.734349670920167, 
+      "lng": 103.37904797871771
     },
 
     "9": 
@@ -103,8 +111,9 @@
       "color": "Orange and white", 
       "place": "Pahang", 
       "image": "../image/Mochi.jpg",
-       "status": "Available",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
+      "status": "Available",
+      "lat":3.8867657202943353, 
+      "lng": 103.34302753297357 
     },
 
     "10": 
@@ -116,7 +125,8 @@
       "place": "Terengganu", 
       "image": "../image/Daisy.jpg", 
       "status": "Available",
-      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
+       "lat": 4.734349670920167, 
+      "lng": 103.37904797871771
     },
 
     "11": 
@@ -128,7 +138,8 @@
       "place": "Terengganu", 
       "image": "../image/Bastet.jpg", 
       "status": "Available",
-      "address": "https://maps.app.goo.gl/EgdXQoq2ZW7YZTro8" 
+       "lat": 4.734349670920167, 
+      "lng": 103.37904797871771
     },
 
     "12": 
@@ -140,7 +151,8 @@
       "place": "selangor", 
       "image": "../image/Maybank.jpg", 
       "status": "Available", 
-      "address": "https://maps.app.goo.gl/ipyoSrkXGwYMEZm17" 
+      "lat": 3.1517240848764403,
+      "lng": 101.59468203876085  
     },
 
     "13": 
@@ -152,7 +164,8 @@
       "place": "Pahang", 
       "image": "../image/Ziggy.jpg", 
       "status": "Available",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7"  
+      "lat":3.8867657202943353, 
+      "lng": 103.34302753297357 
     },
 
     "14": 
@@ -164,7 +177,8 @@
       "place": "Pahang", 
       "image": "../image/Lulu.jpg", 
       "status": "Adopted",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7" 
+      "lat":3.8867657202943353, 
+      "lng": 103.34302753297357
     },
 
     "15": 
@@ -176,7 +190,8 @@
       "place": "Pahang", 
       "image": "../image/Ali.jpg", 
       "status": "Available",
-      "address": "https://maps.app.goo.gl/h9mooYoeLb2zToXr7"  
+      "lat":3.8867657202943353, 
+      "lng": 103.34302753297357
     }
     
 }

@@ -65,6 +65,10 @@
                   <button type="submit">Send request</button>
                   <button type="button" onclick="closePopup()">Cancel</button>
                 </form>
+                <div id="mapOverlay" class="hidden"></div>
+                <div id="mapPopup" class="hidden">
+                <div id="map"></div> <button type="button" onclick="closeMapPopup()">Close Map</button>
+                </div>
               </div>
             </div>
       </section>
@@ -85,5 +89,6 @@
 
   <script src="../javascript/cat-bio.js"></script>
   <script src="../javascript/index.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIL2Wk4gSz3--K6QNhSSKxZUXft26x3as&callback=initMap"></script>
 </body>
 </html>
